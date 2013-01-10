@@ -3,12 +3,12 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-  , profile = require('./routes/profile')
-  , info = require('./routes/info')
-  , http = require('http')
-  , path = require('path');
+var express = require('express'),
+  routes = require('./routes'),
+  profile = require('./routes/profile'),
+  info = require('./routes/info'),
+  http = require('http'),
+  path = require('path');
 
 var app = express();
 
