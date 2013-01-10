@@ -2,11 +2,24 @@ doctype 5
 html
   head
     title= settings.title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet', media='screen')
+    link(href='/stylesheets/style.css', rel='stylesheet', media='screen')
   body
     header
-      h1= settings.title
-      block content
+      h1.none= settings.title
+      .navbar.navbar-fixed-top.navbar-inverse
+        .navbar-inner
+          .container
+            .nav-collapse
+              a.brand(href='#') LeadHerForward
+              ul
+                li
+                  a(href='/') Home
+                li
+                  a(href='/team') About
+                li
+                  a(href='/contact_us') Contact
+    block content
     footer
       nav
         ul
@@ -22,3 +35,5 @@ html
             a(href="/faq") FAQs
           li
             a(href="/contact_us") Contact Us
+     script(src="http://code.jquery.com/jquery-latest.js")
+     script(src="javascripts/bootstrap.min.js")
