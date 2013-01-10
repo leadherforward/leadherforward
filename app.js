@@ -5,7 +5,6 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
   , profile = require('./routes/profile')
   , info = require('./routes/info')
   , http = require('http')
@@ -32,7 +31,6 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/users', user.list);
 app.get('/profile', profile.list);
 
 app.get('/team', info.team);
