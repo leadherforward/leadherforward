@@ -15,7 +15,6 @@ var profile = {
 
 exports.list = function(req, res){
   res.render('profile/show', {
-    title: 'Profile',
     profile: profile
   });
 };
