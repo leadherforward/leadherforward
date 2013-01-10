@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  p Express stock photo application.
+    .profile
+      h2= profile.name
+      img(src='/photos/#{profile.images[0]}')
+      dl
+        dt DOB
+        dd= profile.dob
+        dt DOD
+        dd= profile.dod
+        dt Quote
+        dd= profile.quote
+        dt Bio
+        dd= profile.bio
+        dt Resources
+          for resource in profile.resources
+            dd=resource
