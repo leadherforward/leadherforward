@@ -1,8 +1,15 @@
 !!! 5
-html
+html(lang='en')
   head
-    title= settings.title
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name="description", content="What is the description")
+    meta(name='viewport', content='width=device-width')
+    title= settings.title || "LeadHerForward"
     link(href='/stylesheets/main.css', rel='stylesheet', media='screen')
+
+    //if lt IE 9
+      script(src="javascripts/lib/html5shiv.js")
   body
     div.navbar.navbar-inverse.navbar-fixed-top
       div.navbar-inner
@@ -32,8 +39,22 @@ html
             a(href="/faq") FAQs
           li
             a(href="/contact_us") Contact Us
-    // script(src="http://code.jquery.com/jquery-latest.js")
+
+
     script(src="javascripts/lib/jquery.js")
+    //- uncomment these next lines and remove the line above to switch to
+    //- CDN jquery with local fallback.
+    //- script(src="http://code.jquery.com/jquery-latest.js")
+    //- script
+    //-   window.jQuery || document.write('<script src="javascripts/lib/jquery.js"><\\/script>')
     script(src="javascripts/lib/bootstrap.min.js")
     script(src="javascripts/lib/timeline-min.js")
     script(src="javascripts/script.js")
+
+    //- uncomment this to if we want to add google analytics
+    //- change UA-XXXXX-X to your id and outdent the following:
+      script
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
