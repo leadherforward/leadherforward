@@ -717,8 +717,15 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .show{display:block}
 .invisible{visibility:hidden}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.clearfix{*zoom:1}
+&:before,&:after{content:"";display:table}
+&:after{clear:both}
 .none,.hide,.js-hide{display:none}
 body{padding:50px}
+.navbar-search .search-query{background:#f5f5f5;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
+.navbar-search .search-query:hover{background:#fff}
+#footer{border-top:1px solid #d6d7d8;padding:15px;margin:15px 0 0 0;}
+#footer .logo{float:left;margin:0 50px 0 0}
 .profile{display:inline-block;margin:5px;padding:10px;border:1px solid #eee;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 2px #ddd}
 .profile h2{margin:0;margin-bottom:5px;font-size:14px;font-weight:200}
 .profile img{height:100px}
