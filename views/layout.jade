@@ -24,7 +24,9 @@ html(lang='en')
               a(href='/contact_us') Contact
     div.container-fluid
       block content
-    footer
+    footer#footer.clearfix
+      .logo
+        img(data-src="holder.js/260x120", alt="LeadHerForward Logo")
       nav
         ul
           li
@@ -48,6 +50,9 @@ html(lang='en')
     //- script
     //-   window.jQuery || document.write('<script src="javascripts/lib/jquery.js"><\\/script>')
     script(src="javascripts/lib/bootstrap.min.js")
+
+    //- remove holder js when you go to production
+    script(src="javascripts/lib/holder.js")
     script(src="javascripts/lib/timeline-min.js")
     script(src="javascripts/script.js")
 
