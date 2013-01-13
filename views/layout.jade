@@ -11,57 +11,11 @@ html(lang='en')
     //if lt IE 9
       script(src="javascripts/lib/html5shiv.js")
   body
-    div.navbar.navbar-inverse.navbar-fixed-top
-      div.navbar-inner
-        div.container-fluid
-          a.brand(href="#") Lead Her Forward
-          ul.nav
-            li
-              a(href='/') Timeline
-            li
-              a(href='/team') Why LHF
-            li
-              a(href='/contact_us') Take the Leads
-          form(class="navbar-search pull-right")
-            input(type="text", class="search-query", placeholder="Search", id="search-field")
+    include _header
+
     div.container-fluid
       block content
-    footer#footer.clearfix
-      .logo
-        img(data-src="holder.js/260x120", alt="LeadHerForward Logo")
-      nav
-        ul
-          li
-            a(href="/team") Our Team
-          li
-            a(href="/why") Why LeadHerForward?
-          li
-            a(href="/about") About the Leaders
-          li
-            a(href="/resources") Resources for Girls
-          li
-            a(href="/faq") FAQs
-          li
-            a(href="/contact_us") Contact Us
 
+    include _footer
 
-    script(src="javascripts/lib/jquery.js")
-    //- uncomment these next lines and remove the line above to switch to
-    //- CDN jquery with local fallback.
-    //- script(src="http://code.jquery.com/jquery-latest.js")
-    //- script
-    //-   window.jQuery || document.write('<script src="javascripts/lib/jquery.js"><\\/script>')
-    script(src="javascripts/lib/bootstrap.min.js")
-
-    //- remove holder js when you go to production
-    script(src="javascripts/lib/holder.js")
-    script(src="javascripts/lib/timeline-min.js")
-    script(src="javascripts/script.js")
-
-    //- uncomment this to if we want to add google analytics
-    //- change UA-XXXXX-X to your id and outdent the following:
-      script
-        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
+    include _scripts
