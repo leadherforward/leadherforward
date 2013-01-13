@@ -3,6 +3,8 @@ html
   head
     title= settings.title
     link(href='/stylesheets/main.css', rel='stylesheet', media='screen')
+    //if lt IE 9
+      script(src="javascripts/lib/html5shiv.js")
   body
     div.navbar.navbar-inverse.navbar-fixed-top
       div.navbar-inner
