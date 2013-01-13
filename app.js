@@ -8,7 +8,20 @@ var express = require('express'),
   profile = require('./routes/profile'),
   info = require('./routes/info'),
   http = require('http'),
-  path = require('path');
+  path = require('path'),
+  bootstrap = require('bootstylus'),
+  stylus = require('stylus'),
+  nib = require('nib');
+
+// compile function for stylus
+function compile(str, path) {
+  return stylus(str)
+    .set('filename', path)
+    .set('compress', true)
+    .set('warn', true)
+    .use(nib())
+    .use(bootstrap());
+}
 
 var app = express();
 
@@ -22,7 +35,11 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(require('less-middleware')({ src: __dirname + '/public' }));
+  app.use(stylus.middleware({
+    src: __dirname + '/views',
+    dest: __dirname + '/public',
+    compile: compile
+  }));
   app.use(express.static(path.join(__dirname, 'public')));
 });
 
@@ -46,18 +63,18 @@ http.createServer(app).listen(app.get('port'), function(){
 
 //Some code for the MongoDB <- MongoJS -> Express side of things
 //Still need to come up with a way to funnel different parts of MongoDB entries into parts of a profile
-//Some mongoJS stuff that connects to 
+//Some mongoJS stuff that connects to
 var databaseUrl = "LHFdb";
 var collections = ["profiles"]
 var db = require("mongojs").connect(databaseUrl, collections);
 
-//This saves one example profile 
-db.profiles.save({decade: "1960", 
-	 year: "1965 - elected into Congress as 1st woman of color", 
-	 LeadHer: "Patsy Mink", 
+//This saves one example profile
+db.profiles.save({decade: "1960",
+	 year: "1965 - elected into Congress as 1st woman of color",
+	 LeadHer: "Patsy Mink",
 	 website: "http://womenincongress.house.gov/member-profiles/profile.html?intID=173",
 	 quote: "What you endure is who you are. And if you just accept and do nothing, then life goes on, but if you see it as a way for change. Life doesn't have to be so unfair. I can't change the past, but I certainly can help someone in the future so they dont have to go through what I did.",
-	 bio: "Patsy Mink was a pioneering advocate on various women's issues including equal rights. One of her major victories was the passage of Title IX of the 1972 Education Amendments, which opened up opportunities for women in athletics.", 
+	 bio: "Patsy Mink was a pioneering advocate on various women's issues including equal rights. One of her major victories was the passage of Title IX of the 1972 Education Amendments, which opened up opportunities for women in athletics.",
 	 supplemental: "She realized early in her House career that 'because there were only eight women at the time who were Members of Congress, that I had a special burden to bear to speak for [all women], because they didn’t have people who could express their concerns for them adequately. So, I always felt that we were serving a dual role in Congress, representing our own districts and, at the same time, having to voice the concerns of the total population of women in the country.'",
 });
 

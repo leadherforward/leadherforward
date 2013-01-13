@@ -10,7 +10,7 @@
     "express": "3.0.6",
     "jade": "*",
     "stylus": "*",
-    "bootstrap-stylus": "*",
+    "bootstylus": "*",
     "less-middleware": "~0.1.9",
     "jquery": "*",
     "nib": "*"

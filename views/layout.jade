@@ -1,25 +1,22 @@
-doctype 5
+!!! 5
 html
   head
     title= settings.title
-    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet', media='screen')
-    link(href='/stylesheets/style.css', rel='stylesheet', media='screen')
+    link(href='/stylesheets/main.css', rel='stylesheet', media='screen')
   body
-    header
-      h1.none= settings.title
-      .navbar.navbar-fixed-top.navbar-inverse
-        .navbar-inner
-          .container
-            .nav-collapse
-              a.brand(href='#') LeadHerForward
-              ul
-                li
-                  a(href='/') Home
-                li
-                  a(href='/team') About
-                li
-                  a(href='/contact_us') Contact
-    block content
+    div.navbar.navbar-inverse.navbar-fixed-top
+      div.navbar-inner
+        div.container-fluid
+          a.brand(href="#") Lead Her Forward
+          ul.nav
+            li
+              a(href='/') Home
+            li
+              a(href='/team') About
+            li
+              a(href='/contact_us') Contact
+    div.container-fluid
+      block content
     footer
       nav
         ul
