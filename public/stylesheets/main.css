@@ -717,6 +717,9 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .show{display:block}
 .invisible{visibility:hidden}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.clearfix{*zoom:1}
+&:before,&:after{content:"";display:table}
+&:after{clear:both}
 .none,.hide,.js-hide{display:none}
 body{padding:50px}
 #footer{border-top:1px solid #d6d7d8;padding:15px;margin:15px 0 0 0;}

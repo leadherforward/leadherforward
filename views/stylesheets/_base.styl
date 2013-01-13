@@ -1,6 +1,14 @@
 *
   box-sizing: border-box
 
+.clearfix
+    *zoom: 1
+  &:before, &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
+
 .none, .hide, .js-hide
   display: none
 
