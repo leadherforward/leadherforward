@@ -1,20 +1,33 @@
 extends ../layout
 
 block content
-  p Express stock photo application.
-  .profile
-    h2= profile.name
-    img(src='/photos/#{profile.images[0]}')
-    dl
-      dt DOB
-      dd= profile.dob
-      dt DOD
-      dd= profile.dod
-      dt Quote
-      dd= profile.quote
-      dt Bio
-      dd= profile.bio
-      dt Resources
-        for resource in profile.resources
-          dd=resource
+  #profile.profile
+    .row-fluid
+
+      .left-column.span5
+        img(src='/photos/#{profile.images[0]}', class='profile-img')
+        .profile-social
+          p
+        blockquote
+          p "#{profile.quote}"
+
+      .right-column.span8
+
+        h2= profile.name
+
+        .profile-dates
+          //- format date of birth/death
+          if profile.dod
+            p #{profile.dob} - #{profile.dod}
+          else
+            p Born - #{profile.dob}
+
+        p.profile-bio= profile.bio
+
+        h3 Resources
+        ul.profile-resources
+          for resource in profile.resources
+            li= resource
+
+
   a(href='/', class="btn btn-success") Back to home
