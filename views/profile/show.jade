@@ -15,12 +15,15 @@ block content
 
         h2= profile.name
 
-        .profile-dates
-          //- format date of birth/death
-          if profile.dod
-            p #{profile.dob} - #{profile.dod}
-          else
-            p Born - #{profile.dob}
+        .profile-headline.
+          Profile headline here.
+
+        //- .profile-dates
+        //-   //- format date of birth/death
+        //-   if profile.dod
+        //-     p #{profile.dob} - #{profile.dod}
+        //-   else
+        //-     p Born - #{profile.dob}
 
         p.profile-bio= profile.bio
 
