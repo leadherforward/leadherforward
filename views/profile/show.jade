@@ -30,7 +30,8 @@ block content
         h3 Resources
         ul.profile-resources
           for resource in profile.resources
-            li= resource
+            li
+              a(href="#{resource}", title="#{profile.name} Resource", target="_blank")= resource
 
 
   a(href='/', class="btn btn-success") Back to home
