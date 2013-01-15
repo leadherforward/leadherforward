@@ -1,9 +1,7 @@
-extends ../layout
-
-block content
-  #profile.profile
+#profileModal.profile.hide.fade.modal("aria-hidden" = "true", "aria-labelledby" = "myModalLabel", 'role' = "dialog", 'tabindex' = "-1")
+  .modal-body
     .row-fluid
-
+      button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
         img(src='/photos/#{profile.images[0]}', class='profile-img')
         .profile-social
@@ -32,6 +30,3 @@ block content
           for resource in profile.resources
             li
               a(href="#{resource}", title="#{profile.name} Resource", target="_blank")= resource
-
-
-  a(href='/', class="btn btn-success") Back to home
