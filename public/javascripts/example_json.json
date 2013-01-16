@@ -2,92 +2,92 @@
 {
     "timeline":
     {
-        "headline":"Sh*t People Say",
+        "headline":"19",
         "type":"default",
-		"text":"People say stuff",
-		"startDate":"2012,1,26",
+		"text":"Lead Hers",
+		"startDate":"1950",
         "date": [
             {
-                "startDate":"2012,1,26",
-				"endDate":"2012,1,27",
-                "headline":"Sh*t Politicians Say",
-                "text":"<p>In true political fashion, his character rattles off common jargon heard from people running for office.</p>",
+                "startDate":"1950",
+				"endDate":"1950",
+                "headline":"Patsy Mink",
+                "text":"<p>(HI) 1st congresswoman of color, first AAPI to run for President of U.S. </p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/u4XpeU9erbg",
+                    "media":"https://www.dropbox.com/s/5q526iwyv7qrej4/patsy_mink%20profile_cropped.jpg",
                     "credit":"",
                     "caption":""
                 }
             },
             {
-                "startDate":"2012,1,10",
-                "headline":"Sh*t Nobody Says",
-                "text":"<p>Have you ever heard someone say “can I burn a copy of your Nickelback CD?” or “my Bazooka gum still has flavor!” Nobody says that.</p>",
+                "startDate":"1950",
+                "headline":"Rosa Parks",
+                "text":"<p>civil rights activist</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/f-x8t0JOnVw",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"2012,1,26",
-                "headline":"Sh*t Chicagoans Say",
-                "text":"",
+                "startDate":"1950",
+                "headline":"Martha Griffiths",
+                "text":"<p>(MI), Mother of Equal Rights Amendment EEOC founder</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/Ofy5gNkKGOo",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"2011,12,12",
-                "headline":"Sh*t Girls Say",
-                "text":"",
+                "startDate":"1960",
+                "headline":"Shirley Chisholm",
+                "text":"<p>(NY) 1st African American woman in elected into Congress</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/u-yLGIH7W9Y",
+                    "media":"",
                     "credit":"",
                     "caption":"Writers & Creators: Kyle Humphrey & Graydon Sheppard"
                 }
             },
 			{
-                "startDate":"2012,1,4",
-                "headline":"Sh*t Broke People Say",
-                "text":"",
+                "startDate":"1960",
+                "headline":"Yuri Kochiyama",
+                "text":"<p>human rights activist</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/zyyalkHjSjo",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }
             },
 
 			{
-                "startDate":"2012,1,4",
-                "headline":"Sh*t Silicon Valley Says",
-                "text":"",
+                "startDate":"1960",
+                "headline":"Dolores Huerta",
+                "text":"<p>civil rights activist and labor leader, led United Farm Workers Union with Cesar Chavez and Philip Vera Cruz</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/BR8zFANeBGQ",
+                    "media":"",
                     "credit":"",
                     "caption":"written, filmed, and edited by Kate Imbach & Tom Conrad"
                 }
             },
 			{
-                "startDate":"2011,12,25",
-                "headline":"Sh*t Vegans Say",
-                "text":"",
+                "startDate":"1970",
+                "headline":"Barbara Mikulski (MD)",
+                "text":"<p>Senator of Maryland</p>",
                 "asset":
                 {
-                    "media":"http://youtu.be/OmWFnd-p0Lw",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"2012,1,23",
+                "startDate":"2002",
                 "headline":"Sh*t Graphic Designers Say",
                 "text":"",
                 "asset":
@@ -98,7 +98,7 @@
                 }
             },
 			{
-                "startDate":"2011,12,30",
+                "startDate":"2003",
                 "headline":"Sh*t Wookiees Say",
                 "text":"",
                 "asset":
@@ -120,7 +120,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,20",
+                "startDate":"2004",
                 "headline":"Sh*t Social Media Pros Say",
                 "text":"",
                 "asset":
@@ -131,7 +131,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,11",
+                "startDate":"2005",
                 "headline":"Sh*t Old People Say About Computers",
                 "text":"",
                 "asset":
@@ -142,7 +142,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,11",
+                "startDate":"2006",
                 "headline":"Sh*t College Freshmen Say",
                 "text":"",
                 "asset":
@@ -153,7 +153,7 @@
                 }
             },
 			{
-                "startDate":"2011,12,16",
+                "startDate":"2007",
                 "headline":"Sh*t Girls Say - Episode 2",
                 "text":"",
                 "asset":
@@ -164,7 +164,7 @@
                 }
             },
 			{
-                "startDate":"2011,12,24",
+                "startDate":"2008",
                 "headline":"Sh*t Girls Say - Episode 3 Featuring Juliette Lewis",
                 "text":"",
                 "asset":
@@ -175,7 +175,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,27",
+                "startDate":"2009",
                 "headline":"Sh*t Web Designers Say",
                 "text":"",
                 "asset":
@@ -186,7 +186,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,12",
+                "startDate":"2010,1,12",
                 "headline":"Sh*t Hipsters Say",
                 "text":"No meme is complete without a bit of hipster-bashing.",
                 "asset":
@@ -197,7 +197,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,6",
+                "startDate":"2011",
                 "headline":"Sh*t Cats Say",
                 "text":"No meme is complete without cats. This had to happen, obviously.",
                 "asset":
@@ -208,7 +208,7 @@
                 }
             },
 			{
-                "startDate":"2012,1,21",
+                "startDate":"2012",
                 "headline":"Sh*t Cyclists Say",
                 "text":"",
                 "asset":
@@ -219,7 +219,7 @@
                 }
             },
 			{
-                "startDate":"2011,12,30",
+                "startDate":"2013",
                 "headline":"Sh*t Yogis Say",
                 "text":"",
                 "asset":
@@ -234,7 +234,7 @@
 
 
 			{
-                "startDate":"2012,1,18",
+                "startDate":"2014",
                 "headline":"Sh*t New Yorkers Say",
                 "text":"",
                 "asset":
