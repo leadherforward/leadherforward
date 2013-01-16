@@ -6,6 +6,7 @@
 var express = require('express'),
   routes = require('./routes'),
   profile = require('./routes/profile'),
+  lead = require('./routes/lead'),
   info = require('./routes/info'),
   http = require('http'),
   path = require('path'),
@@ -48,7 +49,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/profile', profile.list);
+app.get('/profile/:id', profile.list);
+app.get('/take_the_lead/:id', lead.list);
 
 app.get('/team', info.team);
 app.get('/why', info.why);
