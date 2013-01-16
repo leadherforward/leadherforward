@@ -3,7 +3,7 @@
     .row-fluid
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
-        img(src='/photos/#{profile.images[0]}', class='profile-img')
+        img(src='/photos/#{profile.action}', class='profile-img')
         .profile-social
           p
         blockquote
@@ -13,8 +13,8 @@
 
         h2= profile.name
 
-        .profile-headline.
-          Profile headline here.
+        .profile-headline
+          profile.headline
 
         //- .profile-dates
         //-   //- format date of birth/death
@@ -27,6 +27,6 @@
 
         h3 Resources
         ul.profile-resources
-          for resource in profile.resources
-            li
-              a(href="#{resource}", title="#{profile.name} Resource", target="_blank")= resource
+          //-for resource in profile.resources
+            //-li
+              //-a(href="#{resource}", title="#{profile.name} Resource", target="_blank")= resource
