@@ -7,6 +7,7 @@ fs.readFile('db/profiles.json', 'utf8', function(err, data){
 exports.list = function(req, res){
   res.render('profile/show', {
     layout: false,
+    id: req.params.id,
     profile: profiles[req.params.id]
   });
 };

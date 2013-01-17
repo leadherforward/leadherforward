@@ -10,4 +10,12 @@ jQuery(document).ready(function($) {
    });
  });
 
+ $('body').delegate('.lead', 'click', function(event){
+   var that = this;
+   event.preventDefault();
+   $.get( this.href, function(data){
+     $(that).closest('#profileModal').html(data)
+   });
+ });
+
 });

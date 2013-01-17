@@ -1,4 +1,5 @@
-extends layout
-
-block content
-  =lead
+.modal-body
+  .row-fluid
+    img.span5(src='/images/lead-large.png')
+    button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
+    =lead

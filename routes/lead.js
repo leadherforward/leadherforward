@@ -6,6 +6,7 @@ fs.readFile('db/profiles.json', 'utf8', function(err, data){
 
 exports.list = function(req, res){
   res.render('lead', {
+    layout: false,
     lead: profiles[req.params.id].take_the_lead
   });
 };
