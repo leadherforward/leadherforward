@@ -8,6 +8,12 @@
           p
         blockquote
           p "#{profile.quote}"
+
+      .right-column.span8
+        h2= profile.name
+        .profile-headline
+          profile.headline
+        p.profile-bio= profile.bio
         ul.external-links
           - if (profile.official_website)
             li.span
@@ -26,25 +32,4 @@
               a.thumbnail(href=profile.youtube)
                 img.icon(src='images/youtube-icon.jpeg', alt="Leader's YouTube Page")
 
-
-      .right-column.span8
-
-        h2= profile.name
-
-        .profile-headline
-          profile.headline
-
-        //- .profile-dates
-        //-   //- format date of birth/death
-        //-   if profile.dod
-        //-     p #{profile.dob} - #{profile.dod}
-        //-   else
-        //-     p Born - #{profile.dob}
-
-        p.profile-bio= profile.bio
-
         h3 Resources
-        ul.profile-resources
-          //-for resource in profile.resources
-            //-li
-              //-a(href="#{resource}", title="#{profile.name} Resource", target="_blank")= resource
