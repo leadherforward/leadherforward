@@ -10,12 +10,13 @@ To get a server running
 * Run `npm install`
 * Run `node app`
 
-To get MongoJS
+To deploy to heroku
 
-First make sure you have MongoDB installed. Several executables (at least on windows) will be present. 'mongod' is the one corresponding to the MongoDB server. Make sure it's running. You can also start up the Mongo shell and type 'use LHFdb' to switch from the test database to the LHFdb (once LHFdb is spawned). Then use the command:
-
-*Run 'npm install mongojs'
-
-I have a separate file called db_generator.js that I have to add a few lines to. Ideally, whoever is maintaining the database can paste the text fields from the Google Drive document into this and append + save these changes to LHFdb over time. -Patrick 1/11/13
-
-
+* Have someone add you as a collaborator to the heroku app
+* Follow instructions to get the heroku command line: https://devcenter.heroku.com/articles/quickstart
+* Follow instructions on https://devcenter.heroku.com/articles/collab which are as follows:
+  * Add heroku as a remote
+    * $ git remote add heroku git@heroku.com:leadherforward.git
+    * It looks like you can also run: $ heroku git:remote
+  * Deploy
+    * $ git push heroku master
