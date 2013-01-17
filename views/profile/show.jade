@@ -3,7 +3,7 @@
     .row-fluid
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
-        img(src='images/photos/#{profile.action}', class='profile-img')
+        img(src='/images/photos/#{profile.action}', class='profile-img')
         .profile-social
           p
         blockquote
@@ -14,22 +14,22 @@
         .profile-headline
           =profile.headline
         p.profile-bio= profile.bio
-        ul.external-links
+        ul.external-links.span8
           - if (profile.official_website)
             li.span
               a.thumbnail(href=profile.official_website)
-                img(src='images/externallink-icon.jpeg', alt="Official Website")
+                img(src='/images/externallink-icon.jpeg', alt="Official Website")
           - if (profile.facebook)
             li.span
               a.thumbnail(href=profile.facebook)
-                img.icon(src='images/facebook-icon.jpeg', alt="Leader's Facebook Page")
+                img.icon(src='/images/facebook-icon.jpeg', alt="Leader's Facebook Page")
           - if (profile.twitter)
             li.span
               a.thumbnail(href=profile.twitter)
-                img.icon(src='images/twitter-icon.jpeg', alt="Leader's Twitter Page")
+                img.icon(src='/images/twitter-icon.jpeg', alt="Leader's Twitter Page")
           - if (profile.youtube)
             li.span
               a.thumbnail(href=profile.youtube)
-                img.icon(src='images/youtube-icon.jpeg', alt="Leader's YouTube Page")
         a.lead(href='/take_the_lead/#{id}')
+                img.icon(src='/images/youtube-icon.jpeg', alt="Leader's YouTube Page")
           img(src='/images/lead-small.png', alt="Further resources to take action")
