@@ -10,14 +10,15 @@ What you endure is who you are. And if you just accept and do nothing, then life
 Bio:
 Patsy Mink was a pioneering advocate on various women's issues including equal rights. One of her major victories was the passage of Title IX of the 1972 Education Amendments, which opened up opportunities for women in athletics. Mink is also the first Asian American Pacific Islander (AAPI) to run for President of U.S.
 ---
-Action: https://www.dropbox.com/home/LeadHerForward/Images
-action Source: http://becauseofthiswoman.tumblr.com/post/14481527562/name-patsy-matsu-takemoto-mink-dates-1927-2002
+Action: patsy_mink_action.jpg
+---
+action_source: http://becauseofthiswoman.tumblr.com/post/14481527562/name-patsy-matsu-takemoto-mink-dates-1927-2002
 ---
 Headshot: https://www.dropbox.com/home/LeadHerForward/Images
 ---
 headshot_source: WomenInCongress.Gov
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 --profile--
 Name: Rosa Parks
 ---
@@ -33,7 +34,7 @@ HeadShot: http://www.aclu.org/files/imagecache/blog_feature_500/blog_images/blog
 ---
 headshot_source: http://www.aclu.org/files/imagecache/blog_feature_500/blog_images/blogs-rp-500x280-v01.jpg 
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 Rosa Parks saw an injustice and called it out. She also faced hard economic times due to losing her job as a seamstress and remained active in the struggle for civil rights. Is there a time in your life when you have felt that there was an injustice? Did you do something about it?
 Take the next step and check out some of these women leadership development programs.
 http://www.naawli.org/
@@ -52,10 +53,11 @@ Quote: “All I want to be is human and American and have all the same rights an
 ---
 Bio: Martha Griffiths grew up in rural Missouri as the daughter of a mail carrier. She served as a lawyer and judge before transitioning to politics. In 1946, she made her first run for a seat in the Michigan legislature and lost. She remained determined and won her bid on the second run. In 1954, she became the first woman elected to the U.S. Congress from Michigan as a member of the Democratic Party. In Congress, Griffiths was known for her sharp intellect and blunt language. She worked to protect and extend women’s rights; she fought for the inclusion of sex as a category under Title VII of the Civil Rights Act of 1964. In addition, she advocated for the Equal Rights Amendment, which had been debated since the 1920’s. After her time in Congress, Griffiths continued to remain active in politics; she served as the first woman elected to be Lieutenant Governor of Michigan. The legacy that she leaves behind is a long political career serving as a fierce advocate for women’s rights.
 ---
-Action: http://www.commondreams.org/headlines03/images/0425-01.jpg 
-action Source: http://www.commondreams.org/headlines03/images/0425-01.jpg 
+Action: http://www.commondreams.org/headlines03/images/0425-01.jpg
 ---
-TAKE_THE_LEAD:
+action_source: http://www.commondreams.org/headlines03/images/0425-01.jpg 
+---
+take_the_lead:
 Before starting her career in politics, Martha Griffiths sought out opportunities to learn about and practice the law. She served as a lawyer and even opened up her own law firm with her husband. Are you interested in serving your community through the law? Check out these opportunities below:
 http://www.courts.ca.gov/programs-justicecorps.htm
 http://www.csus.edu/calst/judicial_fellowship_program.html
@@ -70,10 +72,11 @@ Quote: “Of my two handicaps, being female put many more obstacles in my path t
 ---
 Bio: The daughter of immigrant parents, Shirley Chisholm was the first African American woman to be elected to Congress. She spent the majority of her childhood raised by her maternal grandmother in Barbados. In 1964, Chisholm ran for New York legislature and won. During her time in Congress, she advocated for increase spending on education, health, and social services. In 1972, she placed her bid for the Democratic Party’s presidential nomination. During her campaign she survived 3 assassination attempts, and was widely supported by women and diverse communities. Although she did not win the bid, Chisholm continued to play an active role in politics. After retirement from Congress, she worked on Jesse Jackson’s presidential campaign.
 ---
-Action: http://thesavvysistah.com/wp-content/uploads/2011/09/Shirley-Chisholm.jpg 
-action Source: http://thesavvysistah.com/wp-content/uploads/2011/09/Shirley-Chisholm.jpg 
+Action: http://thesavvysistah.com/wp-content/uploads/2011/09/Shirley-Chisholm.jpg
 ---
-TAKE_THE_LEAD:  Do you have ambitions to run for office for your local government or even for President? The Front Line Leader Academy will support and nurture your ambitions: http://www.yeonetwork.org/content/front-line-leaders-academy.
+action_source: http://thesavvysistah.com/wp-content/uploads/2011/09/Shirley-Chisholm.jpg 
+---
+take_the_lead:  Do you have ambitions to run for office for your local government or even for President? The Front Line Leader Academy will support and nurture your ambitions: http://www.yeonetwork.org/content/front-line-leaders-academy.
 --profile--
 Name: Yuri Kochiyama
 ---
@@ -88,9 +91,10 @@ Bio:
 Yuri Kochiyama is a human rights activist. She served in Women's Women's Army Corps and at the Aloha USO, which served Hawai'i soldiers after her family was interned during Japanese American internment in 1942. She is also well known member of the Organization for Afro-Unity. She held Malcolm X, an African American human rights activist in her arms after he was assassinated. She has mentored many Asian Americans and stood against injustice of political prisoners such as Mumia Abu-Jamal. She was nominated for the Nobel Peace Prize in 2005.
 ---
 action: https://www.dropbox.com/home/LeadHerForward/Images
-action Source: http://mikkipedia.net/?p=3549
 ---
-TAKE_THE_LEAD: 
+action_source: http://mikkipedia.net/?p=3549
+---
+take_the_lead: 
 --profile--
 Name: Dolores Huerta
 ---
@@ -107,7 +111,7 @@ She grew up in Stockton in the central valley region of California. Her awarenes
 ---
 action: https://www.dropbox.com/home/LeadHerForward/Images
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 --profile--
 Name: Barbara Mikulski
 ---
@@ -134,7 +138,7 @@ facebook:  https://www.facebook.com/SenatorMikulski
 ---
 youtube:  http://www.youtube.com/user/senatormikulski
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 There are many ways you can lead through a path similar to Senator Mikulski’s:
 Education & Training
 Learn about what social workers do:
@@ -178,7 +182,7 @@ Ms. Burke currently serves on the AMTRAK Board of Directors.
 ---
 facebook: https://www.facebook.com/pages/Yvonne-Brathwaite-Burke/108280855858727?rf=110884715606485
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 There are many ways you can lead through a path similar to Ms. Burke’s:
 Education & Training
 Learn about what lawyers do:
@@ -227,9 +231,10 @@ On March 31, 1998, Ms. Abzug died due to breast cancer and heart disease. A year
 Those who want to read more about Ms. Abzug can read her two books, “Bella: Ms. Abzug Goes to Washington” and “The Gender Gap,” the latter book co-authored with friend, Mim Kelber. She also appeared in Woody Allen’s Manhattan.
 ---
 action: http://http://womenincongress.house.gov/images/profiles/abzug-bella.jpgwomenincongress.house.gov/images/profiles/abzug-bella.jpg
-action Source: http://http://womenincongress.house.gov/images/profiles/abzug-bella.jpgwomenincongress.house.gov/images/profiles/abzug-bella.jpg
 ---
-TAKE_THE_LEAD:
+action_source: http://http://womenincongress.house.gov/images/profiles/abzug-bella.jpgwomenincongress.house.gov/images/profiles/abzug-bella.jpg
+---
+take_the_lead:
 Learn about what lawyers do:
 http://www.bls.gov/ooh/legal/lawyers.htm
 Apply to the Bella Abzug Leadership Institute (BALI) (for high school and college students)
@@ -269,7 +274,7 @@ Bio:  Helen Zia is an award-winning journalist and activist.  She has covered As
 ---
 action: https://www.dropbox.com/lightbox/home/LeadHerForward/Images
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 --profile--
 Name: Barbara Lee
 ---
@@ -291,7 +296,7 @@ Facebook: https://www.facebook.com/RepBarbaraLee
 ---
 Twitter: https://twitter.com/RepBarbaraLee
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 --profile--
 Name: Sheila Jackson Lee
 ---
@@ -305,7 +310,7 @@ Bio: Sheila represents the 18th Congressional District of Texas. Also, Sheila se
 ---
 Facebook: http://www.facebook.com/pages/Congresswoman-Sheila-Jackson-Lee/169479190984
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 --profile--
 Name: Mona Pasquil
 ---
@@ -320,9 +325,10 @@ Bio: Mona Pasquil currently serves as the California Appointments Secretary. Mon
 Mona devotes her time to various women’s organizations, including sister on the boards of _.
 ---
 action:  https://www.dropbox.com/home/LeadHerForward/Images
-action Source: Audrey Magazine http://audreymagazine.com/wp-content/uploads/2010/04/Mona-Pasquil.jpg
 ---
-TAKE_THE_LEAD:
+action_source: Audrey Magazine http://audreymagazine.com/wp-content/uploads/2010/04/Mona-Pasquil.jpg
+---
+take_the_lead:
 Mona was bullied a young child. After college she became more vocal and involved in politics.
 After kids leave:
 ---
@@ -346,11 +352,12 @@ Representative Clarke is a first generation American; her mother and her father 
 Known for her commitment to environmental causes, Rep. Clarke received 100% ratings from Environment America, The League of Conservation Voters, and the Sierra Club in 2011. She served as the chair of the United States House Homeland Security Subcommittee on Emerging Threats, Cybersecurity, Science and Technology, and is committed to women’s and anti-poverty causes.
 ---
 action: https://sphotos-a.xx.fbcdn.net/hphotos-ash4/397733_453927598003058_1949157082_n.jpg
-action Source:https://sphotos-a.xx.fbcdn.net/hphotos-ash4/397733_453927598003058_1949157082_n.jpg
+---
+action_source:https://sphotos-a.xx.fbcdn.net/hphotos-ash4/397733_453927598003058_1949157082_n.jpg
 ---
 Headshot: http://en.wikipedia.org/wiki/File:Yvette_Clarke_Official.jpg
 ---
-headshot: Source:  http://en.wikipedia.org/wiki/File:Yvette_Clarke_Official.jpg
+headshot_Source:  http://en.wikipedia.org/wiki/File:Yvette_Clarke_Official.jpg
 ---
 twitter: https://twitter.com/YvetteClarke
 ---
@@ -366,7 +373,7 @@ Quote: "Because today, I know from experience that if I truly want to leave a be
 ---
 Bio: Michelle Obama is the first African American First Lady of the United States. Michelle traces her lineage to pre-Civil War African Americans. Her great grandparents were slaves in South Carolina. Michelle was salutatorian of her high school and went on to study African American Studies at Princeton University. She continued her education, earning her J.D. at at Harvard Law School. She is a lawyer, public servant, and mother. As First Lady, one of Michelle's notable projects "Let's Move" focuses on nutrition, helping kids get access to eating healthier foods. She has also brought national attention to issues of childhood obesity and poverty. She is also known for being a fashion trendsetter like her predecessors, former First Lady Jackie Kennedy.
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 We make choices at least 3 time a day, with each meal. Learn about eating healthier through First Lady Michelle Obama’s initiative,  Let’s Move. [http://www.letsmove.gov/]
 --profile--
 Name: Hillary Clinton
@@ -388,10 +395,10 @@ headshot_source: Salon.com http://media.salon.com/2012/12/Hillary_Clinton_offici
 ---
 action: https://www.dropbox.com/home/LeadHerForward/Images
 ---
-action: Source:
+action_source:
 http://cafeconlecheblog.com/loyalty-still-exists-between-hillary-clinton-and-john-mccain/#.UPPE6KFdeYw
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 Get involved and apply to be a women leader at The Women in Public Service Institute at Bryn Mawr College http://brynmawr.edu/wpsp/institute.html
 --profile--
 Name: Hilda Solis - Former Secretary of Labor
@@ -417,7 +424,7 @@ other_photos: http://media.npr.org/assets/img/2013/01/09/solis_wide-55abc572971b
 ---
 Headshot: http://www.nhli.org/images/2012Conference/Keynoters/Hilda_Solis.jpg
 ---
-TAKE_THE_LEAD:
+take_the_lead:
 Sources: http://www.washingtonpost.com/postlive/qanda-with-hilda-solis/2012/12/21/c3daf5f0-4baf-11e2-b709-667035ff9029_story.html 
 --profile--
 Name: Sonia Sotomayor
@@ -432,7 +439,8 @@ Bio: Growing up as girl in the Bronx with parents from Puerto Rico, Sonia Sotoma
 It was as a child that she first became interested in the law. At first, she wanted to be a police detective, but was told by a doctor that would be tough because of her diabetes (that was diagnosed when she was 8). She decided to become a judge.
 Sotomayor is now a Justice in the Supreme Court - it’s 111th justice in history, its third female justice and, its first Hispanic justice. Obama administration officials say Sotomayor has brought the most judicial experience to the Supreme Court than any justice confirmed in the past 70 years. One of Sotomayor's most famous rulings was praised by baseball fans; she ended a Major League Baseball strike in 1995. In her memoir, My Beloved World, Justice Sotomayor opens up about her childhood diabetes, her father’s alcoholism, the strained relationship with her mother and her move from the projects to Princeton.
 ---
-TAKE_THE_LEAD:
+take_the_lead:
+---
 action:  http://media.npr.org/assets/img/2012/12/12/soniasotomayorforpromos_sq-073ea6f1d65c4d1c624be35566fd690662581fc6-s6.jpg
 ---
 other_photos: 
@@ -455,7 +463,7 @@ Bio: Tammy served as a congresswoman from 1999-2013. In 2012, she was elected as
 ---
 Facebook: https://www.facebook.com/TammyBaldwin
 ---
-TAKE_THE_LEAD: Get involved your local Gay Straight Alliance. 
+take_the_lead: Get involved your local Gay Straight Alliance. 
 --profile--
 Name: Tam Tran & Cinthya Felix
 ---
@@ -490,7 +498,7 @@ Headshot:  http://upload.wikimedia.org/wikipedia/commons/9/93/Kathleen_Sebelius_
 ---
 action: http://upload.wikimedia.org/wikipedia/commons/3/3c/Kathleen_Sebelius_Secretary_of_Health_and_Human_Services_nomination.jpg
 ---
-TAKE_THE_LEAD: 
+take_the_lead: 
 --profile--
 Name: Mazie Hirono
 ---
@@ -508,4 +516,4 @@ action: http://photo.parismatch.com/media/photos2/actu/monde/obama-a-hawaii/le-s
 ---
 Headshot: http://images.politico.com/global/2012/04/mazie_hirono_250.jpg
 ---
-TAKE_THE_LEAD:
+take_the_lead:
