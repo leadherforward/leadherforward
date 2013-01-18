@@ -12,6 +12,8 @@
           p
         blockquote
           p.featured-quote "#{profile.quote}"
+          - if (profile.quote_citation)
+            small=profile.quote_citation
 
       .right-column.span8
         h2= profile.name
