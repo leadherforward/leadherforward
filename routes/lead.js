@@ -10,6 +10,6 @@ exports.show = function(req, res){
 
 exports.list = function(req, res){
   res.render('lead_index', {
-    lead: profiles.profiles.take_the_lead
+    profiles: profiles.profiles
   });
 };

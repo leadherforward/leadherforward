@@ -745,5 +745,6 @@ legend.photo-source{font-size:inherit;line-height:inherit;color:#d3d3d3;font-sty
 .leader-container{height:215px}
 .leader-text{padding-top:10px;margin-left:30px}
 h1{margin-bottom:15px}
-.centered-img-container{text-align:center}
+.centered-img-container{text-align:center;border-bottom:1px solid #d6d7d8;padding:10px 0;margin-bottom:25px}
 img.take-lead{max-width:400px}
+.take-lead-info{border-bottom:1px solid #d6d7d8;padding-bottom:20px;margin-bottom:20px}

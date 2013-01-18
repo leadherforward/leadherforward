@@ -1,6 +1,21 @@
 extends layout
 
 block content
-  .row
-    .centered-img-container
-      img.take-lead(src='/images/lead-large.png')
+  .centered-img-container
+    img.take-lead(src='/images/lead-large.png')
+
+  .take-lead-info.clearfix
+    .span9 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean turpis leo, malesuada vitae aliquet ac, ultricies non metus. Curabitur in arcu ut dolor elementum malesuada non eu velit. Curabitur augue enim, congue a cursus nec, imperdiet a augue. Ut faucibus dolor vel mauris pulvinar a mattis leo congue. Ut pretium scelerisque massa sed facilisis. Ut in nunc metus. Integer ullamcorper congue velit ac aliquet. Mauris at eleifend mauris.
+
+  for profile in profiles
+    if profile.take_the_lead
+      .leader-container.span12
+        .leader-content
+          .media-image.thumbnail.span3
+            img.media-image(src='/images/photos/michelle_obama.jpg')
+          .leader-text.span8
+            h2.date=profile.year
+            h3= profile.name
+            p
+            p= profile.take_the_lead
+            p
