@@ -21,3 +21,8 @@ exports.faq = function(req, res){
 exports.contact_us = function(req, res){
   res.render('info/contact_us');
 };
+
+
+exports.take_lead = function(req, res){
+  res.render('info/take_lead');
+};
