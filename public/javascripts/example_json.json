@@ -3,14 +3,14 @@
     {
         "headline":"Welcome to Lead Her Forward",
         "type":"default",
-        "text":"Scroll through our timeline to read about notable women leaders throughout  history and learn what they did to be a leader.",
+        "text":"Scroll through our timeline to read about notable women leaders throughout history and learn what they did to be a leader.",
         "startDate":"1950",
         "date": [
             {
                 "startDate":"1954",
                 "endDate":"1954",
                 "headline":"Martha Griffiths",
-                "text":"<p>Mother of Equal Rights Amendment EEOC founder</p><a class='profile' href='/profile/0' data-toggle='modal'>Details...</a>",
+                "text":"<p>Mother of Equal Rights Amendment EEOC founder</p><a class='profile' href='/profile/0' data-toggle='modal'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -21,7 +21,7 @@
             {
                 "startDate":"1955",
                 "headline":"Rosa Parks",
-                "text":"<p>Civil rights activist</p><a class='profile' href='/profile/1'>Details...</a>",
+                "text":"<p>Civil rights activist</p><a class='profile' href='/profile/1'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -32,7 +32,7 @@
             {
                 "startDate":"1960",
                 "headline":"Yuri Kochiyama",
-                "text":"<p>Human rights activist, joined Organization for Afro-American Unity</p><a class='profile' href='/profile/2'>Details...</a>",
+                "text":"<p>Human rights activist, joined Organization for Afro-American Unity</p><a class='profile' href='/profile/2'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -43,7 +43,7 @@
             {
                 "startDate":"1964",
                 "headline":"Patsy Mink",
-                "text":"<p>Elected as 1st congresswoman of color, First AAPI to run for President of U.S. </p><a class='profile' href='/profile/3'>Details...</a>",
+                "text":"<p>Elected as 1st congresswoman of color, First AAPI to run for President of U.S. </p><a class='profile' href='/profile/3'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -54,7 +54,7 @@
             {
                 "startDate":"1965",
                 "headline":"Dolores Huerta",
-                "text":"<p>Civil rights activist and labor leader, led grape strike with Cesar Chavez and Philip Vera Cruz </p><a class='profile' href='/profile/4'>Details...</a>",
+                "text":"<p>Civil rights activist and labor leader, led grape strike with Cesar Chavez and Philip Vera Cruz </p><a class='profile' href='/profile/4'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -65,7 +65,7 @@
             {
                 "startDate":"1966",
                 "headline":"Yvonne Burke",
-                "text":"<p>First African American/Black woman elected to CA State Legislature and House of Rep’s. First Congressional Black Caucus chair</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First African American/Black woman elected to CA State Legislature and House of Rep’s, First Congressional Black Caucus chair</p><a class='profile' href='/profile/5'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -76,7 +76,7 @@
             {
                 "startDate":"1972",
                 "headline":"Shirley Chisholm",
-                "text":"<p>First African American woman in elected into Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First African American woman in elected into Congress</p><a class='profile' href='/profile/6'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -87,7 +87,7 @@
             {
                 "startDate":"1976",
                 "headline":"Barbara Mikulski",
-                "text":"<p>Elected into House of Representatives, First Democratic Woman to Serve in Both Houses of Congress / In the 112th Congress, The Longest-Serving Woman in Senate History</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Elected into House of Representatives, First Democratic Woman to Serve in Both Houses of Congress / In the 112th Congress, The Longest-Serving Woman in Senate History</p><a class='profile' href='/profile/7'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -98,7 +98,7 @@
             {
                 "startDate":"1976",
                 "headline":"Bella Abzug",
-                "text":"<p>First Woman to Run for the U.S. Senate from New York</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Woman to Run for the U.S. Senate from New York</p><a class='profile' href='/profile/8'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -109,7 +109,7 @@
                        {
                 "startDate":"1982",
                 "headline":"Helen Zia",
-                "text":"<p>Activist defending Vincent Chin & the pioneer in Asian American national movement</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Activist defending Vincent Chin & the pioneer in Asian American national movement</p><a class='profile' href='/profile/9'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -120,7 +120,7 @@
             {
                 "startDate":"1994",
                 "headline":"Sheila Jackson Lee",
-                "text":"<p>African American Southern Leader Elected to Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>African American Southern Leader Elected to Congress</p><a class='profile' href='/profile/10'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -131,7 +131,7 @@
             {
                 "startDate":"1998",
                 "headline":"Barbara Lee",
-                "text":"<p>First African American woman to represent California's 13th District in East Bay Area</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First African American woman to represent California's 13th District in East Bay Area</p><a class='profile' href='/profile/11'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -141,7 +141,7 @@
             },           {
                 "startDate":"1999",
                 "headline":"Lucille Roybal-Allard",
-                "text":"<p>First Congressional Hispanic Caucus Female Chair, First Mexican American Woman Elected to U.S. Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Congressional Hispanic Caucus Female Chair, First Mexican American Woman Elected to U.S. Congress</p><a class='profile' href='/profile/12'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -152,7 +152,7 @@
             {
                 "startDate":"2007",
                 "headline":"Yvette Clarke",
-                "text":"<p>Elected to Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Elected to Congress</p><a class='profile' href='/profile/13'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -163,7 +163,7 @@
             {
                 "startDate":"2007",
                 "headline":"Tam Ngo Tran",
-                "text":"<p>Testified before Congress on the DREAM Act </p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Testified before Congress on the DREAM Act </p><a class='profile' href='/profile/14'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -174,7 +174,7 @@
            {
                 "startDate":"2007",
                 "headline":"Cinthya Nathalie Felix Perez",
-                "text":"<p>IDEAS Leader</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>IDEAS Leader</p><a class='profile' href='/profile/15'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -185,7 +185,7 @@
             {
                 "startDate":"2009",
                 "headline":"Mona Pasquil",
-                "text":"<p>Appointed as 1st Filipina and Asian American Acting Lt. Governor of California</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Appointed as 1st Filipina and Asian American Acting Lt. Governor of California</p><a class='profile' href='/profile/16'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -196,7 +196,7 @@
             {
                 "startDate":"2009",
                 "headline":"Judy Chu",
-                "text":"<p>First Chinese American Elected to Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Chinese American Elected to Congress</p><a class='profile' href='/profile/17'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -206,7 +206,7 @@
             },           {
                 "startDate":"2009",
                 "headline":"Michelle Obama",
-                "text":"<p>Became First African American First Lady</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Became First African American First Lady</p><a class='profile' href='/profile/18'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -217,7 +217,7 @@
             {
                 "startDate":"2009",
                 "headline":"Hillary Clinton",
-                "text":"<p>Appointed as Secretary of State, former First Lady</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Appointed as Secretary of State, former First Lady</p><a class='profile' href='/profile/19'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -228,7 +228,7 @@
             {
                 "startDate":"2009",
                 "headline":"Hilda Solis",
-                "text":"<p>First Latina American appointed as Cabinet Member as Secretary of Labor</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Latina American appointed as Cabinet Member as Secretary of Labor</p><a class='profile' href='/profile/20'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -238,7 +238,7 @@
             },           {
                 "startDate":"2009",
                 "headline":"Kathleen Sebelius",
-                "text":"<p>Appointed to serve as 21st Secretary of Health and Human Services</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>Appointed to serve as 21st Secretary of Health and Human Services</p><a class='profile' href='/profile/21'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -249,7 +249,7 @@
             {
                 "startDate":"2009",
                 "headline":"Sonia Sotomayor",
-                "text":"<p>First Latina American Chief Justice</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Latina American Chief Justice</p><a class='profile' href='/profile/22'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -260,7 +260,7 @@
             {
                 "startDate":"2012",
                 "headline":"Tammy Baldwin",
-                "text":"<p>First openly gay woman in Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First openly gay woman in Congress</p><a class='profile' href='/profile/23'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -271,7 +271,7 @@
             {
                 "startDate":"2012",
                 "headline":"Tammy Duckworth",
-                "text":"<p>First Thai American and Female Combat Veteran Elected to Congress</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Thai American and Female Combat Veteran Elected to Congress</p><a class='profile' href='/profile/24'>Know More</a>",
                 "asset":
                 {
                     "media":"",
@@ -282,7 +282,7 @@
             {
                 "startDate":"2012",
                 "headline":"Mazie Hirono",
-                "text":"<p>First Asian American woman elected to Senate</p><a class='profile' href='/profile/5'>Details...</a>",
+                "text":"<p>First Asian American woman elected to Senate</p><a class='profile' href='/profile/25'>Know More</a>",
                 "asset":
                 {
                     "media":"",
