@@ -13,11 +13,12 @@ html(lang='en')
     //if lt IE 9
       script(src="javascripts/lib/html5shiv.js")
   body
-    include _header
+    .content
+      include _header
 
-    div.container-fluid
-      block content
+      div.container-fluid
+        block content
 
-    include _footer
+      include _footer
 
   include _scripts
