@@ -10,7 +10,7 @@
     "express": "3.0.6",
     "jade": "*",
     "stylus": "*",
-    "bootstylus": "git://github.com/pensive612/bootstylus.git",
+    "bootstylus": "git://github.com/jconley88/bootstylus.git",
     "less-middleware": "~0.1.9",
     "jquery": "*",
     "nib": "*"
