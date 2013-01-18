@@ -48,7 +48,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/profile/:id', profile.list);
+app.get('/profiles', profile.list);
+app.get('/profile/:id', profile.show);
 app.get('/take_the_lead/:id', lead.list);
 
 app.get('/take_lead', info.take_lead);
