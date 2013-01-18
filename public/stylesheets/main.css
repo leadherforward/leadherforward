@@ -724,7 +724,6 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .none,.hide,.js-hide{display:none}
 body{padding:50px}
 ul{margin:0 0 9px 17px}
-i.back{vertical-align:baseline}
 .navbar-search .search-query{background:#f5f5f5;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
 .navbar-search .search-query:hover{background:#fff}
 #footer{border-top:1px solid #d6d7d8;padding:15px;margin:15px 0 0 0;}
@@ -735,4 +734,6 @@ i.back{vertical-align:baseline}
 .profile-bio{border-top:1px solid #d6d7d8;border-bottom:1px solid #d6d7d8;padding:10px 0;margin-bottom:20px}
 .profile-dates,.profile-headline{font-style:italic;margin-bottom:10px}
 .external-links{list-style:none;margin-left:0}
-.external-links > li{line-height:18px;float:left;width:45px;margin:0 0 9px 10px}
+.external-links > li{line-height:18px;float:left;width:20px;margin:0 0 9px 10px}
+i.back{vertical-align:baseline}
+blockquote p.featured-quote{font-size:inherit;line-height:inherit}
