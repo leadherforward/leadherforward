@@ -7,17 +7,18 @@ html(lang='en')
     meta(name='viewport', content='width=device-width')
     meta(name="google", content="notranslate")
     meta(http-equiv="Content-Language", content="en")
-    title= settings.title || "LeadHerForward"
+    title= settings.title || "Lead Her Forward"
     link(href='/stylesheets/main.css', rel='stylesheet', media='screen')
 
     //if lt IE 9
       script(src="javascripts/lib/html5shiv.js")
   body
-    include _header
+    .content
+      include _header
 
-    div.container-fluid
-      block content
+      div.container-fluid
+        block content
 
-    include _footer
+      include _footer
 
   include _scripts

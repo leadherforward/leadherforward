@@ -1,13 +1,15 @@
-var profiles, fs;
-fs = require('fs');
-fs.readFile('db/profiles.json', 'utf8', function(err, data){
-  profiles = JSON.parse(data);
-});
+profiles = require('../lib/profiles.js');
 
-exports.list = function(req, res){
+exports.show = function(req, res){
   res.render('profile/show', {
     layout: false,
     id: req.params.id,
-    profile: profiles[req.params.id]
+    profile: profiles.profiles[req.params.id]
+  });
+};
+
+exports.list = function(req, res){
+  res.render('profile/index', {
+    profiles: profiles.profiles
   });
 };

@@ -29,7 +29,7 @@ app.configure(function(){
   app.set('port', process.env.PORT || 3000);
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
-  app.set('title', 'LeadHerForward');
+  app.set('title', 'Lead Her Forward');
   app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
@@ -48,7 +48,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/profile/:id', profile.list);
+app.get('/profiles', profile.list);
+app.get('/profile/:id', profile.show);
 app.get('/take_the_lead/:id', lead.list);
 
 app.get('/take_lead', info.take_lead);
