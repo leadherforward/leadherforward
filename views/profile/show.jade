@@ -5,9 +5,9 @@
       .left-column.span5
         -if (profile.photos && profile.photos[0])
           img(src='/images/photos/#{profile.photos[0]}', class='profile-img')
-        -if (profile.photoSources && profile.photoSources[0])
+        -if (profile.photo_sources && profile.photo_sources[0] && profile.photo_source_names && profile.photo_source_names[0] )
           legend.photo-source
-            a(href=profile.photoSources[0]) Caption
+            a(href=profile.photo_sources[0])= profile.photo_source_names[0]
         .profile-social
           p
         blockquote
