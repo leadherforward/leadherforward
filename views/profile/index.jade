@@ -1,5 +1,15 @@
 extends ../layout
 
 block content
-  -for profile in profiles
-    p=profile.name
+  -each profile, i in profiles
+    .leader-container.span12
+      .leader-content
+        .media-image.thumbnail.span3
+          img.media-image(src='/images/photos/michelle_obama.jpg')
+        .leader-text.span8
+          h2.date=profile.year
+          h3.profile.name
+          p
+          p=profile.headline
+          a.profile(href='/profile/#{i}') Know more
+          p
