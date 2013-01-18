@@ -50,9 +50,9 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/profiles', profile.list);
 app.get('/profile/:id', profile.show);
-app.get('/take_the_lead/:id', lead.list);
+app.get('/take_the_lead/:id', lead.show);
 
-app.get('/take_lead', info.take_lead);
+app.get('/take_lead', lead.list);
 app.get('/team', info.team);
 app.get('/why', info.why);
 app.get('/about', info.about);
