@@ -18,4 +18,12 @@ jQuery(document).ready(function($) {
    });
  });
 
+ $('body').delegate('.back_to_profile', 'click', function(event){
+   var that = this;
+   event.preventDefault();
+   $.get( $(this).attr('href'), function(data){
+     $(that).closest('.modal-body').replaceWith($(data).children());
+   });
+ });
+
 });

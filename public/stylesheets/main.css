@@ -254,9 +254,9 @@ table .span9{float:none;width:684px;margin-left:0}
 table .span10{float:none;width:764px;margin-left:0}
 table .span11{float:none;width:844px;margin-left:0}
 table .span12{float:none;width:924px;margin-left:0}
-[class^="icon-"],[class*=" icon-"]{display:inline-block;width:14px;height:14px;line-height:14px;vertical-align:text-top;background-image:url("../img/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat;*margin-right:.3em;}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;width:14px;height:14px;line-height:14px;vertical-align:text-top;background-image:url("/images/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat;*margin-right:.3em;}
 [class^="icon-"]:last-child,[class*=" icon-"]:last-child{*margin-left:0}
-.icon-white{background-image:url("../img/glyphicons-halflings-white.png")}
+.icon-white{background-image:url("/images/glyphicons-halflings-white.png")}
 .icon-glass{background-position:0 0}
 .icon-music{background-position:-24px 0}
 .icon-search{background-position:-48px 0}
@@ -724,6 +724,7 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .none,.hide,.js-hide{display:none}
 body{padding:50px}
 ul{margin:0 0 9px 17px}
+i.back{vertical-align:baseline}
 .navbar-search .search-query{background:#f5f5f5;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
 .navbar-search .search-query:hover{background:#fff}
 #footer{border-top:1px solid #d6d7d8;padding:15px;margin:15px 0 0 0;}
