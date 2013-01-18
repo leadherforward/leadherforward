@@ -24,5 +24,5 @@ exports.contact_us = function(req, res){
 
 
 exports.take_lead = function(req, res){
-  res.render('info/take_lead');
+  res.render('info/take_lead');
 };
