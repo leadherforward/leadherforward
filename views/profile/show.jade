@@ -3,11 +3,17 @@
     .row-fluid
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
-        img(src='/images/photos/#{profile.action}', class='profile-img')
+        -if (profile.photos && profile.photos[0])
+          img(src='/images/photos/#{profile.photos[0]}', class='profile-img')
+        -if (profile.photo_sources && profile.photo_sources[0] && profile.photo_source_names && profile.photo_source_names[0] )
+          legend.photo-source
+            a(href=profile.photo_sources[0])= profile.photo_source_names[0]
         .profile-social
           p
         blockquote
           p.featured-quote "#{profile.quote}"
+          - if (profile.quote_citation)
+            small=profile.quote_citation
 
       .right-column.span8
         h2= profile.name
@@ -31,5 +37,6 @@
             li.span
               a.thumbnail(href=profile.youtube)
                 img.icon(src='/images/youtube-icon.jpeg', alt="Leader's YouTube Page")
-        a.lead.thumbnail.span3(href='/take_the_lead/#{id}')
-          img(src='/images/lead-small.png', alt="Further resources to take action")
+        -if (profile.take_the_lead)
+          a.lead.thumbnail.span3(href='/take_the_lead/#{id}')
+            img(src='/images/lead-small.png', alt="Further resources to take action")
