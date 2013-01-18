@@ -3,7 +3,11 @@
     .row-fluid
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
-        img(src='/images/photos/#{profile.action}', class='profile-img')
+        -if (profile.photos && profile.photos[0])
+          img(src='/images/photos/#{profile.photos[0]}', class='profile-img')
+        -if (profile.photoSources && profile.photoSources[0])
+          legend.photo-source
+            a(href=profile.photoSources[0]) Caption
         .profile-social
           p
         blockquote
