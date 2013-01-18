@@ -55,8 +55,6 @@ app.get('/take_the_lead/:id', lead.list);
 app.get('/team', info.team);
 app.get('/why', info.why);
 app.get('/about', info.about);
-app.get('/resources', info.resources);
-app.get('/faq', info.faq);
 app.get('/contact_us', info.contact_us);
 
 http.createServer(app).listen(app.get('port'), function(){
