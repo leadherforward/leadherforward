@@ -3,10 +3,9 @@ extends ../layout
 block content
   h1 List of Featured Leaders
   -each profile, i in profiles
-    .leader-container.span12
-      .leader-content
-        .media-image.thumbnail.span3
-          img.media-image(src='/images/photos/michelle_obama.jpg')
+    .leader-container.clearfix
+      .leader-content.clearfix
+        img.leader-image(src=profile.photos[0])
         .leader-text.span8
           h2.date=profile.year
           h3= profile.name
