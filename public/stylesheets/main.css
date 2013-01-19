@@ -722,6 +722,7 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .clearfix:before,.clearfix:after{content:"";display:table}
 .clearfix:after{clear:both}
 .none,.hide,.js-hide{display:none}
+h1{margin-bottom:30px}
 body{padding:50px;background-color:#222}
 body div.content{background-color:#fff;padding:10px;-webkit-border-radius:5px;border-radius:5px}
 ul{margin:0 0 9px 17px}
@@ -753,10 +754,11 @@ img.take-lead{max-width:400px}
 .take-lead-info{border-bottom:1px solid #d6d7d8;padding-bottom:20px;margin-bottom:20px;text-align:center;}
 .take-lead-info p{margin:0 15% 0 15%}
 img.story{display:block;margin-right:15px;width:250px;float:left}
-blockquote.story{margin-left:275px;margin-top:20px;margin-bottom:20px;font-style:italic}
+blockquote.story{margin-left:270px;margin-top:20px;margin-bottom:20px;font-style:italic;font-size:16px}
 h2.story{margin-bottom:15px;text-align:center}
 .story-text{margin-right:10%;}
-.story-text p{margin-bottom:10px}
+.story-text p{margin-bottom:10px;font-size:16px}
+.story-text.achieve{margin-top:20px}
 e{color:#27aae1}
 button.close.story{margin-bottom:5px}
 #infographic-story{width:70%;margin-left:-35%}
