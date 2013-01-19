@@ -11,7 +11,7 @@ block content
     if profile.take_the_lead
       .leader-container.row
         .leader-content
-          img.leader-image.span3(src=profile.photos[0])
+          img.leader-image.span3.thumbnail(src=profile.photos[0])
           .leader-text.span9
             h2.date=profile.year
             h3= profile.name
