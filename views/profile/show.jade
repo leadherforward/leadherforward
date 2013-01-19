@@ -15,19 +15,19 @@
             - if (profile.official_website)
               li.span
                 a.thumbnail(href=profile.official_website)
-                  img(src='/images/externallink-icon.jpeg', alt="Official Website")
+                  img(src='/images/externallink-icon.jpeg', alt="#{profile.name}'s Official Website")
             - if (profile.facebook)
               li.span
                 a.thumbnail(href=profile.facebook)
-                  img.icon(src='/images/facebook-icon.jpeg', alt="Leader's Facebook Page")
+                  img.icon(src='/images/facebook-icon.jpeg', alt="#{profile.name} Facebook Page")
             - if (profile.twitter)
               li.span
                 a.thumbnail(href=profile.twitter)
-                  img.icon(src='/images/twitter-icon.jpeg', alt="Leader's Twitter Page")
+                  img.icon(src='/images/twitter-icon.jpeg', alt="#{profile.name} Twitter Page")
             - if (profile.youtube)
               li.span
                 a.thumbnail(href=profile.youtube)
-                  img.icon(src='/images/youtube-icon.jpeg', alt="Leader's YouTube Page")
+                  img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
         .row-fluid
           -if (profile.take_the_lead)
             a.lead.thumbnail(href='/take_the_lead/#{id}')

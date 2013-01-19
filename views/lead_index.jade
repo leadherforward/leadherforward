@@ -2,7 +2,7 @@ extends layout
 
 block content
   .centered-img-container
-    img.take-lead(src='/images/lead-large.png')
+    img.take-lead(src='/images/lead-large.png', alt="Take The Lead Logo")
 
   .take-lead-info
     h3 Inspired by the success stories of the women featured on the LEAD HER FORWARD timeline? <br />
@@ -17,7 +17,7 @@ block content
     if profile.take_the_lead
       .leader-container.row
         .leader-content
-          img.leader-image.span3.thumbnail(src=profile.photos[0])
+          img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
           .leader-text.span9
             h2.date=profile.year
             h3= profile.name
