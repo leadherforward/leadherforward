@@ -10,33 +10,35 @@
             a(href=profile.photo_sources[0])= profile.photo_source_names[0]
         .profile-social
           p
-        blockquote
-          p.featured-quote "#{profile.quote}"
-          - if (profile.quote_citation)
-            small=profile.quote_citation
+        .row-fluid
+          ul.external-links
+            - if (profile.official_website)
+              li.span
+                a.thumbnail(href=profile.official_website)
+                  img(src='/images/externallink-icon.jpeg', alt="Official Website")
+            - if (profile.facebook)
+              li.span
+                a.thumbnail(href=profile.facebook)
+                  img.icon(src='/images/facebook-icon.jpeg', alt="Leader's Facebook Page")
+            - if (profile.twitter)
+              li.span
+                a.thumbnail(href=profile.twitter)
+                  img.icon(src='/images/twitter-icon.jpeg', alt="Leader's Twitter Page")
+            - if (profile.youtube)
+              li.span
+                a.thumbnail(href=profile.youtube)
+                  img.icon(src='/images/youtube-icon.jpeg', alt="Leader's YouTube Page")
+        .row-fluid
+          -if (profile.take_the_lead)
+            a.lead.thumbnail(href='/take_the_lead/#{id}')
+              img(src='/images/lead-small.png', alt="Further resources to take action")
 
       .right-column.span8
         h2= profile.name
         .profile-headline
           =profile.headline
+        blockquote
+          p.featured-quote "#{profile.quote}"
+          - if (profile.quote_citation)
+            small=profile.quote_citation
         p.profile-bio= profile.bio
-        ul.external-links.span8
-          - if (profile.official_website)
-            li.span
-              a.thumbnail(href=profile.official_website)
-                img(src='/images/externallink-icon.jpeg', alt="Official Website")
-          - if (profile.facebook)
-            li.span
-              a.thumbnail(href=profile.facebook)
-                img.icon(src='/images/facebook-icon.jpeg', alt="Leader's Facebook Page")
-          - if (profile.twitter)
-            li.span
-              a.thumbnail(href=profile.twitter)
-                img.icon(src='/images/twitter-icon.jpeg', alt="Leader's Twitter Page")
-          - if (profile.youtube)
-            li.span
-              a.thumbnail(href=profile.youtube)
-                img.icon(src='/images/youtube-icon.jpeg', alt="Leader's YouTube Page")
-        -if (profile.take_the_lead)
-          a.lead.thumbnail.span3(href='/take_the_lead/#{id}')
-            img(src='/images/lead-small.png', alt="Further resources to take action")

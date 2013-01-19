@@ -568,8 +568,8 @@ button.btn.small,input[type="submit"].btn.small{*padding-top:3px;*padding-bottom
 .navbar .nav.pull-right{float:right}
 .navbar .nav > li{display:block;float:left}
 .navbar .nav > li > a{float:none;padding:10px 10px 11px;line-height:19px;color:#fff;text-decoration:none;text-shadow:0 -1px 0 rgba(0,0,0,0.25)}
-.navbar .nav > li > a:hover{background-color:transparent;color:#d6d7d8;text-decoration:none}
-.navbar .nav .active > a,.navbar .nav .active > a:hover{color:#d6d7d8;text-decoration:none;background-color:#222}
+.navbar .nav > li > a:hover{background-color:transparent;color:#85a5cc;text-decoration:none}
+.navbar .nav .active > a,.navbar .nav .active > a:hover{color:#85a5cc;text-decoration:none;background-color:#222}
 .navbar .divider-vertical{height:40px;width:1px;margin:0 9px;overflow:hidden;background-color:#222;border-right:1px solid #222}
 .navbar .nav.pull-right{margin-left:10px;margin-right:0}
 .navbar .dropdown-menu{margin-top:1px;-webkit-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
@@ -725,10 +725,10 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 body{padding:50px;background-color:#222}
 body div.content{background-color:#fff;padding:10px;-webkit-border-radius:5px;border-radius:5px}
 ul{margin:0 0 9px 17px}
-.navbar-search .search-query{background:#f5f5f5;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
+.navbar-search .search-query{background:#f2ede4;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
 .navbar-search .search-query:hover{background:#fff}
 .navbar ul.nav li{font-size:18px;font-weight:100;margin:0;}
-.navbar ul.nav li a{color:#27aae1}
+.navbar ul.nav li a{color:#f2ede4;text-shadow:0 0 2px #999}
 .navbar .brand{padding:10px 30px 10px 5px;line-height:19px}
 #footer{border-top:1px solid #d6d7d8;padding:15px 15px 0 15px;margin:15px 0 0 0;}
 #footer .logo{float:left;margin-top:5px}
@@ -762,3 +762,4 @@ button.close.story{margin-bottom:5px}
 #infographic-story{width:70%;margin-left:-35%}
 .leader-image{width:200px;float:left}
 .leader-container{margin-left:20px;margin-bottom:40px}
+a.lead.thumbnail{width:100%}
