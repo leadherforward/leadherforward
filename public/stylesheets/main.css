@@ -754,3 +754,5 @@ blockquote.story{margin-left:275px;margin-top:20px;margin-bottom:20px;font-style
 h2.story{margin-bottom:15px}
 .story-text p{margin-bottom:10px}
 e{color:#27aae1}
+button.close.story{margin-bottom:5px}
+#infographic-story{width:70%;margin-left:-35%}

@@ -3,10 +3,14 @@ extends ../layout
 body 
 
 block content
+  #infographic-story.hide.fade.modal("aria-hidden" = "true", "aria-labelledby" = "myModalLabel", 'role' = "dialog", 'tabindex' = "-1")
+    .modal-body
+      button.close.story("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
+      img(src='images/LHF-story.jpg')
   .row.centered-container
     h1 The Lead Her Forward Story
   .row
-    a.story(href='#')
+    a.story(href='#infographic-story', data-toggle="modal")
       img.story.thumbnail(src='images/LHF-story-small.jpg')
     .story-text
       h2.story Why LeadHerForward
