@@ -1,7 +1,7 @@
 //var converted = JSON.parse('example_json.json');
 
 jQuery(document).ready(function($) {
-
+  setAltInTimeline();
   // Script
  $('#timeline-embed').delegate('.profile', 'click', function(event){
    event.preventDefault();
@@ -33,4 +33,13 @@ jQuery(document).ready(function($) {
    });
  });
 
+$('body').click(setAltInTimeline);
+$('body').keydown(setAltInTimeline);
 });
+
+var setAltInTimeline = function(event){
+   $('img.media-image').each(function(index, img){
+     var name = $(img).closest('.layout-text-media').find('div.text').find('h3').text();
+     img.alt = "Image of " + name;
+   });
+ }
