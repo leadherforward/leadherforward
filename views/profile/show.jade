@@ -11,6 +11,10 @@
         .profile-social
           p
         .row-fluid
+          -if (profile.take_the_lead)
+            a.lead.thumbnail(href='/take_the_lead/#{id}')
+              img(src='/images/lead-small.png', alt="Further resources to take action")
+        .row-fluid
           ul.external-links
             - if (profile.official_website)
               li.span
@@ -28,10 +32,6 @@
               li.span
                 a.thumbnail(href=profile.youtube)
                   img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
-        .row-fluid
-          -if (profile.take_the_lead)
-            a.lead.thumbnail(href='/take_the_lead/#{id}')
-              img(src='/images/lead-small.png', alt="Further resources to take action")
 
       .right-column.span8
         h2= profile.name
