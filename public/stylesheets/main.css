@@ -764,7 +764,7 @@ img.take-lead{max-width:400px}
 img.story{display:block;margin-right:15px;width:250px;float:left}
 blockquote.story{margin-left:270px;margin-top:20px;margin-bottom:20px;font-style:italic;font-size:16px}
 h2.story{margin-bottom:15px;text-align:center}
-.story-text{margin-right:10%;}
+.story-text{margin-right:10%;text-align:justify;}
 .story-text p{margin-bottom:10px;font-size:16px}
 .story-text.achieve{margin-top:20px}
 e{color:#27aae1}
