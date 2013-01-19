@@ -754,7 +754,8 @@ img.take-lead{max-width:400px}
 .take-lead-info p{margin:0 15% 0 15%}
 img.story{display:block;margin-right:15px;width:250px;float:left}
 blockquote.story{margin-left:275px;margin-top:20px;margin-bottom:20px;font-style:italic}
-h2.story{margin-bottom:15px}
+h2.story{margin-bottom:15px;text-align:center}
+.story-text{margin-right:10%;}
 .story-text p{margin-bottom:10px}
 e{color:#27aae1}
 button.close.story{margin-bottom:5px}
