@@ -3,5 +3,5 @@ var timeline_config = {
   height:  '600',
   source:  '/javascripts/example_json.json',
   embed_id: 'timeline-embed',
-  start_at_end: true
+  start_at_end: false
 };
