@@ -1,6 +1,13 @@
-//var converted = JSON.parse('example_json.json');
-
 jQuery(document).ready(function($) {
+  createStoryJS({
+          type:  'timeline',
+          width: '100%',
+          height:  '600',
+          source:  '/timeline_config.json',
+          embed_id: 'timeline-embed',
+          start_at_end: false
+      });
+
   setAltInTimeline();
   // Script
  $('#timeline-embed').delegate('.profile', 'click', function(event){

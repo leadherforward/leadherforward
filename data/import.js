@@ -29,7 +29,7 @@ fs.readFile('raw_profile_data.txt', 'utf8', function(err, data){
     });
     profiles.push(profile);
   });
-  fs.writeFile("db/profiles.json", JSON.stringify(profiles), function(err) {
+  fs.writeFile("profiles.json", JSON.stringify(profiles), function(err) {
       if(err) {
           console.log(err);
       } else {
