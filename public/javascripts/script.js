@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
           type:  'timeline',
           width: '100%',
           height:  '600',
-          source:  '/timeline_config/config.json',
+          source:  '/timeline_config.json',
           embed_id: 'timeline-embed',
           start_at_end: false
       });
