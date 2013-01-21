@@ -1,12 +1,4 @@
 jQuery(document).ready(function($) {
-  createStoryJS({
-          type:  'timeline',
-          width: '100%',
-          height:  '600',
-          source:  '/timeline_config.json',
-          embed_id: 'timeline-embed',
-          start_at_end: false
-      });
 
   setAltInTimeline();
   // Script
@@ -42,6 +34,17 @@ jQuery(document).ready(function($) {
 
 $('body').click(setAltInTimeline);
 $('body').keydown(setAltInTimeline);
+
+  // This originally was called at the top of this file, but was interfering with some registered events.
+  // I have no idea why, but putting it down here seemed to help.
+  createStoryJS({
+    type:  'timeline',
+    width: '100%',
+    height:  '600',
+    source:  '/timeline_config.json',
+    embed_id: 'timeline-embed',
+    start_at_end: false
+  });
 });
 
 var setAltInTimeline = function(event){
