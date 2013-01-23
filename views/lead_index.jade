@@ -5,13 +5,13 @@ block content
     img.take-lead(src='/images/lead-large.png', alt="Take The Lead Logo")
 
   .take-lead-info
-    h3 Inspired by the success stories of the women featured on the LEAD HER FORWARD timeline? <br />
+    h1 Inspired by the success stories of the women featured on the LEAD HER FORWARD timeline? <br />
     
     p
-    |Then get ready to participate and engage in “Take the Lead!” - an awesome list of questions and activities designed to help YOU become a great leader. <br /> 
-    |On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. <br />
-    |You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br /> <br />
-    |Be brave. Speak up. TAKE THE LEAD.<br />
+    | h2 Then get ready to participate and engage in “Take the Lead!” - an awesome list of questions and activities designed to help YOU become a great leader. <br /> 
+    | h2 On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. <br />
+    | h2 You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br /> <br />
+    | h1 Be brave. Speak up. TAKE THE LEAD.<br />
     
   for profile in profiles
     if profile.take_the_lead
@@ -19,8 +19,8 @@ block content
         .leader-content
           img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
           .leader-text.span9
-            h2.date=profile.year
-            h3= profile.name
+            h1.date=profile.year
+            h2= profile.name
             p
             p= profile.take_the_lead
             p
