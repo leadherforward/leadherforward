@@ -12,5 +12,7 @@ block content
           h2= profile.name
           p
           h4=profile.headline
+          blockquote
+           p.featured-quote "#{profile.quote}"
           a.profile(href='/profile/#{i}') <br>Know More
           p
