@@ -1,15 +1,19 @@
 extends ../layout
 
 block content
-  h1 <center>Meet the Leaders</center><br />
+  h1 <center>MEET THE LEADERS</center><br />
+
+ p
+    h3| Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward. <br />
+
   -each profile, i in profiles
     .leader-container.row
       .leader-content
         img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
         .leader-text.span9
-          h2.date=profile.year
+          // h2.date=profile.year
           h3= profile.name
           p
           p=profile.headline
-          a.profile(href='/profile/#{i}') Know more
+          a.profile(href='/profile/#{i}') Know More
           p
