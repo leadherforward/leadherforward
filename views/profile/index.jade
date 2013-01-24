@@ -6,11 +6,19 @@ block content
   -each profile, i in profiles
     .leader-container.row
       .leader-content(align="center")
-        img.leader-image.span5.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-        .leader-text.span9
+        img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+        .leader-text.span5
           // h2.date=profile.year
           h2= profile.name
           p
-          h3=profile.headline
-          a.profile(href='/profile/#{i}') <h3>Know More</h3>
+          h4=profile.headline
+          a.profile(href='/profile/#{i}') <br>Know More
+          p
+        img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+        .leader-text.span5
+          // h2.date=profile.year
+          h2= profile.name
+          p
+          h4=profile.headline
+          a.profile(href='/profile/#{i}') <br>Know More
           p
