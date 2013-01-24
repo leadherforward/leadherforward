@@ -10,13 +10,17 @@
             a(href=profile.photo_sources[0])= profile.photo_source_names[0]
         .profile-social
           p
-         //.row-fluid
-          //-if (profile.take_the_lead)
-          //  a.lead.thumbnail(href='/take_the_lead/#{id}')
-            //  img(src='/images/lead-small.png', alt="Take the Lead!")
-            //   p Click on the icon above to "Take the Lead!"
         .row-fluid
-          ul.external-links
+          -if (profile.take_the_lead)
+           a.lead.thumbnail(href='/take_the_lead/#{id}')
+            img(src='/images/lead-small.png', alt="Take the Lead!")
+           p <center>Click on the icon above to "Take the Lead!"</center>
+
+      .right-column.span8
+        h2= profile.name
+        .profile-headline
+          =profile.headline
+        ul.external-links
             - if (profile.official_website)
               li.span
                 a.thumbnail(href=profile.official_website)
@@ -33,11 +37,6 @@
               li.span
                 a.thumbnail(href=profile.youtube)
                   img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
-
-      .right-column.span8
-        h2= profile.name
-        .profile-headline
-          =profile.headline
         blockquote
           p.featured-quote "#{profile.quote}"
           - if (profile.quote_citation)
