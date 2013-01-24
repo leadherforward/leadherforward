@@ -12,6 +12,10 @@
           p
         .row-fluid
           ul.external-links
+            -if (profile.take_the_lead)
+             li.span
+                a.lead.thumbnail(href='/take_the_lead/#{id}')
+                  img.icon(src='/images/lead-small.png', alt="Take the Lead!") Take the Lead!
             - if (profile.official_website)
               li.span
                 a.thumbnail(href=profile.official_website)
@@ -29,10 +33,6 @@
                 a.thumbnail(href=profile.youtube)
                   img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
 
-            -if (profile.take_the_lead)
-             li.span
-                a.lead.thumbnail(href='/take_the_lead/#{id}')
-                  img.icon(src='/images/lead-small.png', alt="Take the Lead!") Take the Lead!
            
 
       .right-column.span8
