@@ -723,7 +723,7 @@ a.thumbnail:hover{border-color:#27aae1;-webkit-box-shadow:0 1px 4px rgba(0,105,2
 .clearfix:after{clear:both}
 .none,.hide,.js-hide{display:none}
 h1{margin-bottom:30px}
-body{padding:50px;background-color:#222}
+body{padding:50px;background-color:#f5f5f5}
 body div.content{background-color:#fff;padding:10px;-webkit-border-radius:5px;border-radius:5px}
 ul{margin:0 0 9px 17px}
 .navbar-search .search-query{background:#f2ede4;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
@@ -747,10 +747,11 @@ ul{margin:0 0 9px 17px}
 i.back{vertical-align:baseline}
 blockquote p.featured-quote{font-size:inherit;line-height:inherit}
 legend.photo-source{font-size:inherit;line-height:inherit;color:#d3d3d3;font-style:italic;margin-bottom:0}
-.leader-text{padding-top:10px;margin-left:30px}
+.leader-text{padding-top:10px}
 h1{margin-bottom:15px}
 .centered-img-container{text-align:center;padding:10px 0;margin-bottom:25px}
 .centered-container{text-align:center}
+.center{float:none;margin-left:auto;margin-right:auto}
 img.take-lead{max-width:400px}
 .take-lead-info{border-bottom:1px solid #d6d7d8;padding-bottom:20px;margin-bottom:20px;text-align:center;}
 .take-lead-info p{margin:0 15% 0 15%}
@@ -763,6 +764,5 @@ h2.story{margin-bottom:15px;text-align:center}
 e{color:#27aae1}
 button.close.story{margin-bottom:5px}
 #infographic-story{width:70%;margin-left:-35%}
-.leader-image{width:200px;float:left}
-.leader-container{margin-left:20px;margin-bottom:40px}
+.leader-container{margin-bottom:40px}
 a.lead.thumbnail{width:100%}
