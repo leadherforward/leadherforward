@@ -1,11 +1,11 @@
 extends ../layout
 
 block content
-  h1 <center>MEET THE LEADERS</center><br />
-  h3| Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward. <br />
+  h1 <center><br />MEET THE LEADERS</center>
+  h3| Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward. <br /><br />
   -each profile, i in profiles
     .leader-container.row
-      .leader-content
+      .leader-content(align="center")
         img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
         .leader-text.span9
           // h2.date=profile.year
