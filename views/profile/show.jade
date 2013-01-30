@@ -37,8 +37,8 @@
         h2= profile.name
         .profile-headline
           =profile.headline
-        blockquote
-          p.featured-quote "#{profile.quote}"
+        blockquote.featured-quote
+          p "#{profile.quote}"
           - if (profile.quote_citation)
             small=profile.quote_citation
         p.profile-bio= profile.bio
