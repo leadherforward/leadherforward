@@ -1,6 +1,6 @@
 #profileModal.profile.hide.fade.modal("aria-hidden" = "true", "aria-labelledby" = "myModalLabel", 'role' = "dialog", 'tabindex' = "-1")
   .modal-body
-    .row-fluid
+    .row
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
       .left-column.span5
         -if (profile.photos && profile.photos[0])
@@ -10,7 +10,7 @@
             a(href=profile.photo_sources[0])= profile.photo_source_names[0]
         .profile-social
           p
-        .row-fluid
+        .row
           ul.external-links
             -if (profile.take_the_lead)
              li.span
