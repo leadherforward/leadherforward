@@ -2,15 +2,13 @@
   .modal-body
     .row
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
-      .left-column.span5
+      .left-column.span3
         -if (profile.photos && profile.photos[0])
           img(src=profile.photos[0], class='profile-img', alt="Image of #{profile.name}")
         -if (profile.photo_sources && profile.photo_sources[0] && profile.photo_source_names && profile.photo_source_names[0] )
           legend.photo-source
             a(href=profile.photo_sources[0])= profile.photo_source_names[0]
-        .profile-social
-          p
-        .row
+        .profile-social.row
           ul.external-links
             -if (profile.take_the_lead)
              li.span
@@ -35,7 +33,7 @@
 
            
 
-      .right-column.span8
+      .right-column.span4
         h2= profile.name
         .profile-headline
           =profile.headline
