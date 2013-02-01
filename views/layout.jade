@@ -4,7 +4,7 @@ html(lang='en')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
     meta(name="description", content="What is the description")
-    meta(name='viewport', content='width=device-width')
+    meta(name='viewport', content='width=device-width', initial-scale=1.0")
     meta(name="google", content="notranslate")
     meta(http-equiv="Content-Language", content="en")
     title= settings.title || "Lead Her Forward"
@@ -20,10 +20,10 @@ html(lang='en')
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
   body
-    .content
+    .content.container
       include _header
 
-      div.container-fluid
+      div
         block content
 
       include _footer
