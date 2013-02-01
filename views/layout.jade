@@ -20,10 +20,10 @@ html(lang='en')
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
   body
-    .content
+    .content.container
       include _header
 
-      div.container
+      div
         block content
 
       include _footer
