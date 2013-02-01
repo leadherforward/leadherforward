@@ -893,8 +893,6 @@ h1{margin-bottom:30px}
 body{padding-top:50px;padding-bottom:50px;background-color:#f5f5f5}
 body div.content{background-color:#fff;padding:10px;-webkit-border-radius:5px;border-radius:5px}
 ul{margin:0 0 9px 17px}
-.navbar-search .search-query{background:#f2ede4;opacity:1;-ms-filter:none;filter:none;height:27px;-webkit-border-radius:5px;border-radius:5px;border:0;}
-.navbar-search .search-query:hover{background:#fff}
 .navbar ul.nav li{font-size:18px;font-weight:100;margin:0;}
 .navbar ul.nav li a{color:#f2ede4;text-shadow:0 0 2px #999}
 .navbar .brand{padding:10px 30px 10px 5px;line-height:19px}
