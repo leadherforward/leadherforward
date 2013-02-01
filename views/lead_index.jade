@@ -11,15 +11,16 @@ block content
     h4| Then get ready to participate and engage in “TAKE THE LEAD!” - an awesome list of questions and activities designed to help YOU become a great leader. <br /><br />
     h4| On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br /><br />
     h2| Be brave. Speak up. TAKE THE LEAD.<br />
-    
-  for profile in profiles
-    if profile.take_the_lead
+
+  each x, i in profiles
+    if i%3 === 0
       .leader-container.row
-        .leader-content
-          img.leader-image.span3.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-          .leader-text.span9
-            h2.date=profile.year
-            h3= profile.name
-            p
-            p= profile.take_the_lead
-            p
+        each profile, j in profiles.slice(i, i+3)
+          .leader-content.centered-container.span4
+            img.span3.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+            .leader-text
+              h2.date=profile.year
+              h3= profile.name
+              p
+              p= profile.take_the_lead
+              p
