@@ -881,6 +881,7 @@ input.span11,textarea.span11,.uneditable-input.span11{width:1060px}
 input.span12,textarea.span12,.uneditable-input.span12{width:1160px}
 .thumbnails{margin-left:-30px}
 .thumbnails > li{margin-left:30px}
+}@media (max-width: 979px){.navbar .nav > li > a,.navbar .dropdown-menu a{font-size:18px;font-weight:100}
 }@media (min-width: 768px) and (max-width: 979px){.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:744px}
 }@media (min-width: 980px){.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:960px}
 }@media (min-width: 1200px){.container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:1190px}
