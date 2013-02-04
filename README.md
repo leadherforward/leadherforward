@@ -1,7 +1,19 @@
-lead her forward
+Lead Her Forward
 ==============
 
-Interactive timeline app to educate and empower girls to be public leaders
+Description: 
+
+Interactive timeline app to educate and empower girls to be public service leaders
+
+Statement of Acceptable Use:
+
+The app Lead Her Forward (LHF) cannot be shared without the full permission of the project lead and must only be used for not-for-profit, educational purposes. Usage of any content and code within the application should fully credit Lead Her Forward and link to the project site. If you have any further questions, please contact the project lead (Mia Jamili) via email at leadherforward2013@gmail.com.
+
+Project Contributors: 
+
+Mia Jamili (Lead), Jonathan Conley, Patrick Namasondhi, Rana Khalil, Adam Lichtenstein
+
+Instructions for modifications and deployment:
 
 To get a server running
 
@@ -20,3 +32,5 @@ To deploy to heroku
     * It looks like you can also run: $ heroku git:remote
   * Deploy
     * $ git push heroku master
+
+Thank you!
