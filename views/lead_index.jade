@@ -1,16 +1,20 @@
 extends layout
 
 block content
-  .centered-img-container
-    img.take-lead(src='/images/lead-large.png', alt="Take The Lead Logo")
+  .row
+    .span18
+      center
+       img.take-lead(src='/images/lead-large.png', alt="Take The Lead!")
+      br
 
-  .take-lead-info
-    h2 Inspired by the success stories of the women featured on the LEAD HER FORWARD timeline? <br />
+      .take-lead-text
+       center
+         h2 Inspired by the success stories of the women featured on the timeline? <br />
     
-    p
-    h4| Then get ready to participate and engage in “TAKE THE LEAD!” - an awesome list of questions and activities designed to help YOU become a great leader. <br /><br />
-    h4| On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br /><br />
-    h2| Be brave. Speak up. TAKE THE LEAD.<br />
+       p
+         h3| Then get ready to participate and engage in “TAKE THE LEAD!” - an awesome list of questions and activities designed to help YOU become a great leader. On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br />
+       center
+          h2| Be brave. Speak up. TAKE THE LEAD.<br /><br />
 
   each x, i in profiles
     if i%3 === 0
