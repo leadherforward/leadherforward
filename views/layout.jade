@@ -14,6 +14,10 @@ html(lang='en')
     //if lt IE 9
       script(src="javascripts/html5shiv.js")
 
+    //- //if !IE 7
+    //-   style type="text/css"
+    //-     #wrap {display:table;height:100%}
+
     //google analytics
     script
       var _gaq=[['_setAccount','UA-37808535-1'],['_trackPageview']];
@@ -22,10 +26,10 @@ html(lang='en')
       s.parentNode.insertBefore(g,s)}(document,'script'));
 
   body
-    include _header
     
-    .content.container
-      div
+    #wrap.content.container
+      #main
+        include _header
         br
         br
         block content
