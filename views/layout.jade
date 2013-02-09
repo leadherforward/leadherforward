@@ -20,19 +20,17 @@ html(lang='en')
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
-    
-    include _header
 
   body
-
-   .content.container
+    include _header
     
-        div
-          br
-          br
-          block content
+    .content.container
+      div
+        br
+        br
+        block content
 
-  include _footer
+    include _footer
 
   include _scripts
 
