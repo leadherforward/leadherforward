@@ -48,6 +48,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.get('/timeline', routes.timeline);
 app.get('/profiles', profile.list);
 app.get('/profile/:id', profile.show);
 app.get('/take_the_lead/:id', lead.show);
