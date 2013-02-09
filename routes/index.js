@@ -10,3 +10,7 @@ exports.index = function(req, res){
 exports.timeline = function(req, res){
   res.render('timeline');
 };  
+
+exports.sources = function(req, res){
+  res.render('sources');
+};  
