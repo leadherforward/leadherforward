@@ -891,7 +891,7 @@ input.span12,textarea.span12,.uneditable-input.span12{width:1160px}
 .clearfix:after{clear:both}
 .none,.hide,.js-hide{display:none}
 h1{margin-bottom:30px}
-body{padding-top:50px;padding-bottom:50px;background-color:#f5f5f5}
+body{background-image:url("http://strix.org.uk/migrate/files/Declaration-of-Independence-section.jpg");padding-top:120px;padding-bottom:50px;background-color:#f5f5f5}
 body div.content{background-color:#fff;padding:10px;-webkit-border-radius:5px;border-radius:5px}
 ul{margin:0 0 9px 17px}
 .navbar ul.nav li{font-size:18px;font-weight:100;margin:0;}
