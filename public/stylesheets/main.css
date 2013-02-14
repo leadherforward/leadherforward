@@ -892,6 +892,9 @@ input.span12,textarea.span12,.uneditable-input.span12{width:1160px}
 .none,.hide,.js-hide{display:none}
 h1{margin-bottom:30px;font-size:50px}
 h2{font-size:30px}
+p{font-size:18px}
+a{font-size:16px}
+fttxt{font-size:16px;font-color:#ffb90f}
 body{background-image:url("http://fotobg.ru/upload/img1348663917.jpg");padding-top:120px;padding-bottom:125px;background-color:#222}
 footer{background-color:#222}
 body div.content{background-image:url("");background-color:#fff;padding:50px;-webkit-border-radius:5px;border-radius:5px}
@@ -904,12 +907,12 @@ body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px}
 .navbar ul.nav li{font-size:18px;font-weight:100;margin:0;}
 .navbar ul.nav li a{color:#f2ede4;text-shadow:0 0 2px #999}
 .navbar .brand{padding:10px 30px 10px 5px;line-height:19px}
-#footer{border-top:1px solid #d6d7d8;padding:15px 15px 0 15px;margin:15px 0 0 0;}
-#footer .logo{float:left;margin-top:5px}
-#footer nav{float:right;display:inline}
-#footer ul{list-style-type:none}
-#footer a{text-decoration:none;color:$drkGrey;}
-#footer a:hover{color:#000}
+#footer{border-top:0 solid #d6d7d8;padding:10px 15px 0 15px;margin:15px 0 0 0;}
+#footer .logo{float:left;margin-top:3px;margin-left:40px}
+#footer nav{float:left;display:inline;margin-top:3px;margin-left:40px}
+#footer ul{display:block;list-style-type:none}
+#footer a{text-decoration:none;color:#fff;}
+#footer a:hover{color:#fff}
 #profileModal{width:60%;margin-left:-30%}
 .left-column{padding:25px 25px 0 25px}
 .right-column{padding:25px 25px 25px 0;overflow:hidden}
