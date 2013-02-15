@@ -25,27 +25,32 @@ p
 
 a
   font-size: 16px
-
-fttxt
-  font-size: 16px
+  font-family: "News Cycle", "Helvetica Neue", Arial, Sans Serif
 
 body
   background-image: url(http://fotobg.ru/upload/img1348663917.jpg)
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: top-center
+  background-size: cover
   background-width: 100% 
-  padding-top: 120px
-  padding-bottom: 125px //This should be whatever padding you want plus the height of the 
+  padding-top: 60px
+  padding-bottom: 0px //This should be whatever padding you want plus the height of the footer
 
 footer
   background-color: $black
 
-body div.content
+body .content.container
   background-image: url( )
   background-color: white
   padding: 50px
   border-radius(5px)
+  position: fixed, relative
+  height: 100%
+  overflow: auto
+  top: 0
+  bottom: 0
+
 
 ul
   margin: 0 0 9px 17px
@@ -62,9 +67,16 @@ html, body
 
 footer#footer
   position: relative
-  margin-top: 50px /* This should be the body bottom-padding minus the footer height */
+  margin-top: 0px /* This should be the body bottom-padding minus the footer height */
   height: 75px
   clear: both
+  font-family: "News Cycle", "Helvetica Neue", Arial, Sans Serif
+  a
+   font-size: 14px
+  fttxt
+   font-size: 14px
+
+
 
 /*Opera Fix*/
 body:before

@@ -893,16 +893,17 @@ input.span12,textarea.span12,.uneditable-input.span12{width:1160px}
 h1{margin-bottom:30px;font-size:50px;font-family:"Lobster","News Cycle",Arial,Sans Serif}
 h2{font-size:30px}
 p{font-size:18px}
-a{font-size:16px}
-fttxt{font-size:16px}
-body{background-image:url("http://fotobg.ru/upload/img1348663917.jpg");background-repeat:no-repeat;background-attachment:fixed;background-position:top-center;background-width:100%;padding-top:120px;padding-bottom:125px}
+a{font-size:16px;font-family:"News Cycle","Helvetica Neue",Arial,Sans Serif}
+body{background-image:url("http://fotobg.ru/upload/img1348663917.jpg");background-repeat:no-repeat;background-attachment:fixed;background-position:top-center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-width:100%;padding-top:60px;padding-bottom:0}
 footer{background-color:#222}
-body div.content{background-image:url("");background-color:#fff;padding:50px;-webkit-border-radius:5px;border-radius:5px}
+body .content.container{background-image:url("");background-color:#fff;padding:50px;-webkit-border-radius:5px;border-radius:5px;position:fixed,relative;height:100%;overflow:auto;top:0;bottom:0}
 ul{margin:0 0 9px 17px}
 html,body{height:100%}
 #wrap{min-height:100%}
 #main{overflow:auto}
-footer#footer{position:relative;margin-top:50px;height:75px;clear:both}
+footer#footer{position:relative;margin-top:0;height:75px;clear:both;font-family:"News Cycle","Helvetica Neue",Arial,Sans Serif;}
+footer#footer a{font-size:14px}
+footer#footer fttxt{font-size:14px}
 body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px}
 .navbar-inner{position:fixed;width:100%;left:0;top:0}
 .navbar ul.nav li a{font-size:25px;font-weight:none;margin:0 0 0 0;height:100%;width:100%;font-family:"Lobster","News Cycle",Arial,Sans Serif}
