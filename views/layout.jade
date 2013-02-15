@@ -29,14 +29,11 @@ html(lang='en')
       s.parentNode.insertBefore(g,s)}(document,'script'));
 
   body
-    
+    include _header
     #wrap.content.container
       #main
-        include _header
-        br
-        br
         block content
-
+        br
     include _footer
 
   include _scripts
