@@ -892,6 +892,7 @@ input.span12,textarea.span12,.uneditable-input.span12{width:1160px}
 .none,.hide,.js-hide{display:none}
 h1{margin-bottom:30px;font-size:50px;font-family:"Lobster","News Cycle",Arial,Sans Serif}
 h2{font-size:30px}
+h3{font-size:24px}
 p{font-size:18px}
 a{font-size:16px;font-family:"News Cycle","Helvetica Neue",Arial,Sans Serif}
 body{background-image:url("http://fotobg.ru/upload/img1348663917.jpg");background-repeat:no-repeat;background-attachment:fixed;background-position:top-center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-width:100%;padding-top:60px;padding-bottom:0}
