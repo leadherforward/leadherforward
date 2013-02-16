@@ -1,20 +1,23 @@
 extends ../layout
 
 block content
-  h1 <center><br />FEATURED LEADERS</center>
+  h1 <center><br />Featured Leaders</center>
   h3 Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward. <br /><br />
-  each x, i in profiles
-    if i%3 === 0
-      .leader-container.row
-        each profile, j in profiles.slice(i, i+3)
-          .leader-content.centered-container.span3
-            img.span3.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-            .leader-text
-              h2= profile.name
-              p
-              h4= profile.headline
-              p
-              blockquote.center
-               p.featured-quote "#{profile.quote}"
-              a.profile(href='/profile/#{j + i}') Know More
-              p
+
+  #ttl-design
+    each x, i in profiles
+      if i%3 === 0
+        .leader-container.row
+          each profile, j in profiles.slice(i, i+3)
+            .leader-content.centered-container.span3
+              img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+              .leader-text
+                h2= profile.name
+                p
+                h4= profile.headline
+                br
+                  //  p
+                  //  blockquote.center
+                  //   p.featured-quote "#{profile.quote}"
+                a.profile(href='/profile/#{j + i}') Know More
+                p

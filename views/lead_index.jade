@@ -17,15 +17,16 @@ block content
        center
           h1| Be brave. Speak up. Take the Lead.<br /><br />
 
-  each x, i in profiles
-    if i%3 === 0
-      .leader-container.row
-        each profile, j in profiles.slice(i, i+3)
-          .leader-content.centered-container.span3
-            img.span4.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-            .leader-text
-              h2.date=profile.year
-              h3= profile.name
-              p
-              p= profile.take_the_lead
-              p
+  #ttl-design
+    each x, i in profiles
+      if i%3 === 0
+        .leader-container.row
+          each profile, j in profiles.slice(i, i+3)
+            .leader-content.centered-container.span3
+              img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+              .leader-text
+                h2.date=profile.year
+                h3= profile.name
+                p
+                p= profile.take_the_lead
+                p
