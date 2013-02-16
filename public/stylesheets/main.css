@@ -920,16 +920,18 @@ body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px}
 #footer ul{display:block;list-style-type:none}
 #footer a{text-decoration:none;color:#fff;}
 #footer a:hover{color:#fff}
-#profileModal{width:60%;margin-left:-30%}
+#profileModal{width:60%;margin-left:-30%;overflow:auto;padding:15px}
 .left-column{padding:25px 25px 0 25px}
 .right-column{padding:25px 25px 25px 0;overflow:hidden}
+profile-img{height:250px;width:100%}
 .profile-bio{border-top:1px solid #d6d7d8;padding:10px 0}
 .profile-social{margin-left:-5px}
-.profile-dates,.profile-headline{font-style:italic;margin-bottom:10px}
+.profile-dates,.profile-headline{font-style:italic;margin-bottom:10px;font-size:30px;line-height:100%}
+.profile-name h2{font-size:50px;font-family:"Lobster","Helvetica Neue",Helvetica,Arial;margin-bottom:15px}
 .external-links{list-style:none;margin-left:0}
 .external-links > li{line-height:18px;float:left;width:35px;margin:0 0 9px 10px}
 i.back{vertical-align:baseline}
-blockquote.featured-quote{font-size:inherit;line-height:inherit;overflow:hidden}
+blockquote.featured-quote p{margin-top:10px;font-size:20px;font-family:"Lobster","News Cycle","Helvetica Neue",Helvetica;line-height:100%;overflow:auto}
 legend.photo-source{font-size:inherit;line-height:inherit;color:#d3d3d3;font-style:italic;margin-bottom:0}
 .leader-text{padding-top:10px}
 h1{margin-bottom:15px}
@@ -949,4 +951,5 @@ e{color:#27aae1}
 button.close.story{margin-bottom:5px}
 #infographic-story{width:70%;margin-left:-35%}
 .leader-container{margin-bottom:40px}
-a.lead.thumbnail{width:100%}
+a.lead.thumbnail{width:40px;height:40px}
+a.thumbnail{width:40px;height:40px}

@@ -2,12 +2,20 @@
   .modal-body
     .row
       button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
-      .left-column.span3
+      .left-column.span4
         -if (profile.photos && profile.photos[0])
           img(src=profile.photos[0], class='profile-img', alt="Image of #{profile.name}")
         -if (profile.photo_sources && profile.photo_sources[0] && profile.photo_source_names && profile.photo_source_names[0] )
           legend.photo-source
             a(href=profile.photo_sources[0])= profile.photo_source_names[0]
+
+
+      .right-column
+        .profile-name
+         h2= profile.name
+        .profile-headline
+          =profile.headline
+        br
         .profile-social.row
           ul.external-links
             -if (profile.take_the_lead)
@@ -31,14 +39,12 @@
                 a.thumbnail(href=profile.youtube)
                   img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
 
-           
-
-      .right-column.span4
-        h2= profile.name
-        .profile-headline
-          =profile.headline
+    .row      
+      .left-column
         blockquote.featured-quote
           p "#{profile.quote}"
           - if (profile.quote_citation)
             small=profile.quote_citation
         p.profile-bio= profile.bio
+
+

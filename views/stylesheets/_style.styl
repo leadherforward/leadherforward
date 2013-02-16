@@ -1,6 +1,8 @@
 #profileModal
   width: 60%
   margin-left: -30%
+  overflow: auto
+  padding: 15px
 
 .left-column
   padding: 25px 25px 0 25px
@@ -14,11 +16,18 @@
   padding: 10px 0
 
 .profile-social
-  margin-left -5px //hack to get this area to obey it's parent's padding
+  margin-left -5px //hack to get this area to obey its parent's padding
 
 .profile-dates, .profile-headline
   font-style: italic
   margin-bottom: 10px
+  font-size: 30px
+  line-height: 100%
+
+.profile-name h2
+  font-size: 50px
+  font-family: "Lobster", "Helvetica Neue", Helvetica, Arial
+  margin-bottom: 15px
 
 .external-links
   list-style: none
@@ -33,10 +42,12 @@
 i.back
   vertical-align: baseline
 
-blockquote.featured-quote
-  font-size: inherit
-  line-height: inherit
-  overflow: hidden
+blockquote.featured-quote p
+  margin-top: 10px
+  font-size: 20px
+  font-family: "Lobster", "News Cycle", "Helvetica Neue", Helvetica
+  line-height: 100%
+  overflow: auto
 
 legend.photo-source
   font-size: inherit
@@ -114,4 +125,9 @@ button.close.story
   margin-bottom 40px
 
 a.lead.thumbnail
-  width 100%
+  width: 40px
+  height: 40px
+
+a.thumbnail
+  width: 40px
+  height: 40px
