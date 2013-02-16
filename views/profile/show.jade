@@ -18,10 +18,6 @@
         br
         .profile-social.row
           ul.external-links
-            -if (profile.take_the_lead)
-             li.span
-                a.lead.thumbnail(href='/take_the_lead/#{id}')
-                  img.icon(src='/images/lead-small.png', alt="Take the Lead!") Take the Lead!
             - if (profile.official_website)
               li.span
                 a.thumbnail(href=profile.official_website)
@@ -39,6 +35,11 @@
                 a.thumbnail(href=profile.youtube)
                   img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
 
+                    //  -if (profile.take_the_lead)
+                    //    li.span
+                    //      a.lead.thumbnail(href='/take_the_lead/#{id}')
+                    //        img.icon(src='/images/lead-small.png', alt="Take the Lead!") Take the Lead!
+
     .row      
       .left-column
         blockquote.featured-quote
@@ -46,5 +47,12 @@
           - if (profile.quote_citation)
             small=profile.quote_citation
         p.profile-bio= profile.bio
+    
+    .row
+      - if (profile.take_the_lead)
+        .left-column.span3
+          img(src='/images/lead-small.png', alt='Take The Lead!')
+        .right-column
+          p= profile.take_the_lead
 
 

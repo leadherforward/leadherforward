@@ -1,6 +1,7 @@
 .modal-body
+  br
   .row
-    img.span5(src='/images/lead-small.png', alt='Take The Lead Logo')
+    img(src='/images/lead-small.png', alt='Take The Lead!')
     button.close("aria-hidden" = "true", "data-dismiss" = "modal", 'type' = "button") ×
     button.close.back_to_profile("aria-hidden" = "true", 'type' = "button", href = '/profile/#{id}')
       i.back.icon-arrow-left
