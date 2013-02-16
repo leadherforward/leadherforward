@@ -930,7 +930,7 @@ body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px}
 .external-links{list-style:none;margin-left:0}
 .external-links > li{line-height:18px;float:left;width:35px;margin:0 0 9px 10px}
 i.back{vertical-align:baseline}
-blockquote.featured-quote p{margin-top:10px;font-size:30px;font-family:"Lobster","News Cycle","Helvetica Neue",Helvetica;line-height:100%;overflow:auto}
+blockquote.featured-quote p{margin-top:10px;font-size:25px;font-family:"Lobster","News Cycle","Helvetica Neue",Helvetica;line-height:100%;overflow:auto}
 legend.photo-source{font-size:inherit;line-height:inherit;color:#d3d3d3;font-style:italic;margin-bottom:0}
 .leader-text{padding-top:10px}
 h1{margin-bottom:15px}

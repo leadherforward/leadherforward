@@ -18,22 +18,23 @@
         br
         .profile-social.row
           ul.external-links
-            - if (profile.official_website)
-              li.span
-                a.thumbnail(href=profile.official_website)
-                  img(src='/images/externallink-icon.jpeg', alt="#{profile.name}'s Official Website")
-            - if (profile.facebook)
-              li.span
-                a.thumbnail(href=profile.facebook)
-                  img.icon(src='/images/facebook-icon.jpeg', alt="#{profile.name} Facebook Page")
-            - if (profile.twitter)
-              li.span
-                a.thumbnail(href=profile.twitter)
-                  img.icon(src='/images/twitter-icon.jpeg', alt="#{profile.name} Twitter Page")
-            - if (profile.youtube)
-              li.span
-                a.thumbnail(href=profile.youtube)
-                  img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
+                  - if (profile.official_website)
+                    li.span
+                      a.thumbnail(href=profile.official_website)
+                        img(src='/images/officialwebsite.png', alt="#{profile.name}'s Official Website")
+                  - if (profile.facebook)
+                    li.span
+                      a.thumbnail(href=profile.facebook)
+                        img.icon(src='/images/facebook.png', alt="#{profile.name} Facebook Page")
+                  - if (profile.twitter)
+                    li.span
+                      a.thumbnail(href=profile.twitter)
+                        img.icon(src='/images/twitter.png', alt="#{profile.name} Twitter Page")
+
+                    //    - if (profile.youtube)
+                    //      li.span
+                    //        a.thumbnail(href=profile.youtube)
+                    //          img.icon(src='/images/youtube-icon.jpeg', alt="#{profile.name} YouTube Page")
 
                     //  -if (profile.take_the_lead)
                     //    li.span
