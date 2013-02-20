@@ -48,6 +48,11 @@
           - if (profile.quote_citation)
             small=profile.quote_citation
         p.profile-bio= profile.bio
+          - if (profile.bio_source)
+             br
+             br
+             a(href=profile.bio_source_url)
+              =profile.bio_source
     
     .row
       - if (profile.take_the_lead)
@@ -55,5 +60,4 @@
           img(src='/images/lead-small.png', alt='Take The Lead!')
         .right-column
           p= profile.take_the_lead
-
 

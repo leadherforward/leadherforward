@@ -30,7 +30,7 @@
 .vco-storyjs{font-size:25px;font-weight:normal;line-height:20px;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;}.vco-storyjs p{font-size:15px;font-weight:normal;line-height:20px;margin-bottom:20px;color:#666666;}.vco-storyjs p small{font-size:12px;line-height:17px;}
 .vco-storyjs p:first-child{margin-top:20px;}
 .vco-storyjs .vco-navigation p{color:#999999;}
-.vco-storyjs .vco-feature h3,.vco-storyjs .vco-feature h4,.vco-storyjs .vco-feature h5,.vco-storyjs .vco-feature h6{margin-bottom:15px;font-size:50px;}
+.vco-storyjs .vco-feature h3,.vco-storyjs .vco-feature h4,.vco-storyjs .vco-feature h5,.vco-storyjs .vco-feature h6{margin-bottom:10px;font-size:50px;line-height:40px;}
 .vco-storyjs .vco-feature p{color:#222222;font-size:20px;}
 .vco-storyjs .vco-feature blockquote,.vco-storyjs .vco-feature blockquote p{color:#000000;}
 .vco-storyjs .date a,.vco-storyjs .title a{color:#999999;}
@@ -38,10 +38,10 @@
 .vco-storyjs h1,.vco-storyjs h2,.vco-storyjs h3,.vco-storyjs h4,.vco-storyjs h5,.vco-storyjs h6{font-weight:normal;color:#000000;text-transform:none;}.vco-storyjs h1 a,.vco-storyjs h2 a,.vco-storyjs h3 a,.vco-storyjs h4 a,.vco-storyjs h5 a,.vco-storyjs h6 a{color:#999999;}
 .vco-storyjs h1 small,.vco-storyjs h2 small,.vco-storyjs h3 small,.vco-storyjs h4 small,.vco-storyjs h5 small,.vco-storyjs h6 small{color:#999999;}
 .vco-storyjs h1.date,.vco-storyjs h2.date,.vco-storyjs h3.date,.vco-storyjs h4.date,.vco-storyjs h5.date,.vco-storyjs h6.date{font-weight:bold;}
-.vco-storyjs h2.start{font-size:36px;line-height:38px;margin-bottom:15px;}
+.vco-storyjs h2.start{font-size:65px;line-height:38px;margin-bottom:20px;}
 .vco-storyjs h1{margin-bottom:15px;font-size:32px;line-height:34px;}.vco-storyjs h1 small{font-size:18px;}
 .vco-storyjs h2{margin-bottom:15px;font-size:28px;line-height:30px;}.vco-storyjs h2 small{font-size:14px;line-height:16px;}
-.vco-storyjs h2.date{font-size:16px;line-height:18px;margin-bottom:3.75px;color:#999999;}
+.vco-storyjs h2.date{font-size:20px;line-height:18px;margin-bottom:3.75px;color:#999999;}
 .vco-storyjs h3,.vco-storyjs h4,.vco-storyjs h5,.vco-storyjs h6{line-height:40px;}.vco-storyjs h3 .active,.vco-storyjs h4 .active,.vco-storyjs h5 .active,.vco-storyjs h6 .active{color:#0088cc;}
 .vco-storyjs h3{font-size:28px;line-height:30px;}.vco-storyjs h3 small{font-size:14px;}
 .vco-storyjs h4{font-size:20px;line-height:22px;}.vco-storyjs h4 small{font-size:12px;}
@@ -89,8 +89,8 @@
 .vco-slider .nav-previous .icon,.vco-slider .nav-next .icon{margin-top:12px;margin-bottom:15px;}
 .vco-slider .nav-previous .date,.vco-slider .nav-next .date,.vco-slider .nav-previous .title,.vco-slider .nav-next .title{line-height:14px;}.vco-slider .nav-previous .date a,.vco-slider .nav-next .date a,.vco-slider .nav-previous .title a,.vco-slider .nav-next .title a{color:#999999;}
 .vco-slider .nav-previous .date small,.vco-slider .nav-next .date small,.vco-slider .nav-previous .title small,.vco-slider .nav-next .title small{display:none;}
-.vco-slider .nav-previous .date,.vco-slider .nav-next .date{font-size:28px;line-height:13px;font-weight:bold;text-transform:uppercase;margin-bottom:5px;}
-.vco-slider .nav-previous .title,.vco-slider .nav-next .title{font-size:20px;line-height:13px;}
+.vco-slider .nav-previous .date,.vco-slider .nav-next .date{font-size:30px;line-height:30px;font-weight:bold;margin-bottom:5px;}
+.vco-slider .nav-previous .title,.vco-slider .nav-next .title{font-size:18px;line-height:25px;}
 .vco-slider .nav-previous{float:left;text-align:left;}.vco-slider .nav-previous .icon{margin-left:15px;background-image:url(timeline.png);background-repeat:no-repeat;background-position:-160px 0;width:25px;height:25px;overflow:hidden;}
 .vco-slider .nav-previous .date,.vco-slider .nav-previous .title{text-align:left;padding-left:15px;}
 .vco-slider .nav-next{float:right;text-align:right;}.vco-slider .nav-next .icon{margin-left:61px;background-image:url(timeline.png);background-repeat:no-repeat;background-position:-184px 0;width:24px;height:24px;overflow:hidden;}
@@ -100,7 +100,7 @@
 .vco-slider .slider-item .content .pad-left .text .container{padding-left:30px;}
 .vco-slider .slider-item .content .pad-left .media.text-media .media-wrapper .media-container{border:none;background-color:#ffffff;}
 .vco-slider .slider-item .content .content-container{display:table;vertical-align:middle;}.vco-slider .slider-item .content .content-container .text{width:40%;max-width:50%;min-width:120px;display:table-cell;vertical-align:middle;}.vco-slider .slider-item .content .content-container .text .container{display:table-cell;vertical-align:middle;text-align:left;}.vco-slider .slider-item .content .content-container .text .container p{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;word-wrap:break-word;}
-.vco-slider .slider-item .content .content-container .text .container h2.date{font-size:30px;line-height:15px;font-weight:bold;}
+.vco-slider .slider-item .content .content-container .text .container h2.date{font-size:30px;line-height:70px;font-weight:bold;}
 .vco-slider .slider-item .content .content-container .text .container .slide-tag{font-size:11px;font-weight:bold;color:#ffffff;background-color:#cccccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;vertical-align:baseline;white-space:nowrap;line-height:11px;padding:1px 3px 1px;margin-left:7.5px;margin-bottom:7.5px;}
 .vco-slider .slider-item .content .content-container .media{width:100%;min-width:50%;float:left;}.vco-slider .slider-item .content .content-container .media .media-wrapper{display:inline-block;margin-left:auto;margin-right:auto;}.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container{display:inline-block;line-height:0px;padding:0px;max-height:100%;}.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-frame,.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-image img{border:1px solid;border-color:#cccccc #999999 #999999 #cccccc;background-color:#ffffff;}
 .vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-frame iframe{background-color:#ffffff;}
