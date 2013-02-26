@@ -12,7 +12,7 @@ block content
        center
          br
          h2 Inspired by the success stories of the women on the timeline? <br />
-    
+         br
        p
          h2| Then get ready to participate and engage in “TAKE THE LEAD!” - a list of questions and activities designed to help YOU become a great leader. On your own or with a group of friends, reflect on some of the admirable women you read about in our timeline and take away a valuable leadership lesson from each of them. <br /><br />
        center
@@ -26,9 +26,11 @@ block content
             .leader-content.centered-container
                   // img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
               .leader-text
-                h1.date=profile.year
-                h2= profile.name
+                  // h1.date=profile.year
+                h1= profile.name
+                br
                 a.profile(href='/profile/#{j + i}') Know More
+                br
                 p
                 h3= profile.take_the_lead
                 p
