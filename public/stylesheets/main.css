@@ -905,8 +905,8 @@ html,body{height:100%}
 #wrap{min-height:100%}
 #main{overflow:auto}
 footer#footer{position:relative;margin-top:0;height:75px;clear:both;font-family:"News Cycle","Helvetica Neue",Arial,Sans Serif;}
-footer#footer a{font-size:14px}
-footer#footer fttxt{font-size:14px;color:#cd5555}
+footer#footer a{font-size:20px}
+footer#footer fttxt{font-size:20px;color:#cd5555}
 body:before{content:"";height:100%;float:left;width:0;margin-top:-32767px}
 .navbar-inner{position:fixed;width:100%;left:0;top:0}
 .navbar ul.nav li a{font-size:25px;font-weight:none;margin:0 0 0 0;height:100%;width:100%;font-family:"Lobster","Open Sans",Arial,Sans Serif}
