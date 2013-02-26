@@ -1,10 +1,11 @@
 extends layout
 
 block content
+  
   .row
     .span18
       center
-       img.take-lead(src='/images/lead-large.png', alt="Take The Lead!")
+       img.take-lead(src='/images/lead-large.png', width="75%", alt="Take The Lead!")
       br
 
       .take-lead-text
@@ -13,7 +14,7 @@ block content
          h2 Inspired by the success stories of the women on the timeline? <br />
     
        p
-         h3| Then get ready to participate and engage in “TAKE THE LEAD!” - an awesome list of questions and activities designed to help YOU become a great leader. On your own or with a group of friends, reflect on the admirable women you read about in our Timeline and take away a valuable leadership lesson from each of them. You can complete the list in one sitting or come back to them anytime you would like. What matters is that you stay determined to be the best leader you can be. <br /><br />
+         h3| Then get ready to participate and engage in “TAKE THE LEAD!” - a list of questions and activities designed to help YOU become a great leader. On your own or with a group of friends, reflect on some of the admirable women you read about in our timeline and take away a valuable leadership lesson from each of them. <br /><br />
        center
           h1| Be brave. Speak up. Take the Lead.<br /><br />
 
@@ -22,11 +23,12 @@ block content
       if i%3 === 0
         .leader-container.row
           each profile, j in profiles.slice(i, i+3)
-            .leader-content.centered-container.span3
-              img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-              .leader-text
+            .leader-content.centered-container
+                  // img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+              .leader-text.span3
                 h2.date=profile.year
                 h3= profile.name
+                a.profile(href='/profile/#{j + i}') Know More
                 p
                 p= profile.take_the_lead
                 p

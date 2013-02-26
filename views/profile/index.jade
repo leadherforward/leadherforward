@@ -1,23 +1,75 @@
 extends ../layout
 
 block content
-  h1 <center><br />Featured Leaders</center>
-  h3 Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward. <br /><br />
+  .row
+          // .centered-container
+    .span18
+      h1 <center>Know the Issue</center>
+      br
+      h1 We need to have more women leaders.
+      br
+      h2 The U.S. has failed to equally represent the voices of half of the population. The U.S. ranks 90th in terms of women elected representatives in government.
+      br
+      h2
+        |There have been
+        e  44&nbsp
+        | women of color who have served in Congress since 1964.  Currently, women of color represent
+        e  18.4%&nbsp
+        of the total U.S. population.
+      h2
+        AND Despite gains in the 113th Congress, women still continue to be underrepresented.  A truly representative Congress would have
+        e  268&nbsp
+        women members. We have currently
+        e  101
+        .
+      br
+      h2 Let’s increase that number. (There’s always room at the top.)
+      br
+      br
+      blockquote
+        h3 <i>Now, the numbers on participation tell the story. Women hold less than 20 percent of all seats in parliaments and legislatures around the world. I’m sorry to say, here in the United States, our percentage is even a little lower, at 17 percent. And it’s not just politics. Only 3 percent of Fortune 500 CEOs are women. And I always think to myself: What a waste, because the world cannot miss out on the talents and contributions of half the population. But these numbers tell only part of the story. We need better data and more rigorous research that documents the impact women have on in public service and the obstacles that still prevent us from contributing.</i>
+        p - Hillary Clinton, Remarks at the Opening of the Inaugural Women in Public Service Institute at Wellesley College, June 11th, 2012
+      br
+      h2 In the struggle for gender equality, American women of all backgrounds face many barriers, whether they are cultural traditions or social pressures that discourage women to take the first step in initiating a form of leadership.
+      br
+      br
+      br
+      br
+      h1 Lead Her Forward wants to help achieve more representation and change things for the better.
+      br
+      h3 Lead Her Forward is a web app project that both seeks to empower and educate.
+      br
+      h3 It holds an interactive timeline that features profiles of women leaders in the U.S. Each leader profile showcases each leader’s pathway to leadership and ways to connect with current leaders via their official websites and social media. In addition to reading the leaders' stories, we also have a "Take the Lead!" section that allows girls to learn leadership skills and encourages them to lead.
+      br
+      h3 Our timeline is set from the 1950s to the present. We hope through using this app, people are able to see and learn more about women leaders who serve as role models and inspirations.
+      br
+      h3 We want Lead Her Forward to be used as a tool to increase the awareness of the contributions of women to U.S. democracy and society. We want to instill confidence in women and girls to act, speak, and lead courageously in the spirit of these leaders. We aim to highlight the presence of women leadership and the need to continue to cultivate women leaders. Every woman leader has a story of challenges that they have overcome in order to move forward. 
+      br
+      h3 Through learning about women’s past and current stories and establishing a connection directly with leaders, it is our vision that girls will also be able to see the relationship between generations and the possibilities in their own futures.
+      br
+      h3 Lead Her Forward recognizes that women leaders have shaped and will continue to shape the nation’s future. Join us in our hopes to move our nation forward, so that women everywhere will have equal economic equity and political participation.
+      br
+      br
+      br
+      br
+                 // .row
+                 //   .span18
+      h1 Check out the stories of our featured leaders.
+      h3 Every leader on our timeline has an accomplishment worth noting and a story to tell. Click on "Know More" for each leader listed below to find out about how she lived, why she is important, and what she did to change the world and move us forward.
 
-  #ttl-design
-    each x, i in profiles
-      if i%3 === 0
-        .leader-container.row
-          each profile, j in profiles.slice(i, i+3)
-            .leader-content.centered-container.span3
-              img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
-              .leader-text
-                h2= profile.name
-                p
-                h4= profile.headline
-                br
-                  //  p
-                  //  blockquote.center
-                  //   p.featured-quote "#{profile.quote}"
-                a.profile(href='/profile/#{j + i}') Know More
-                p
+      #ttl-design
+        each x, i in profiles
+          if i%3 === 0
+            .leader-container.row
+              each profile, j in profiles.slice(i, i+3)
+                .leader-content.centered-container.span3
+                      // img.center.thumbnail(src=profile.photos[0], alt="Image of #{profile.name}")
+                  .leader-text.span3
+                    h3= profile.name
+                    p= profile.headline
+                      //  p
+                      //  blockquote.center
+                      //   p.featured-quote "#{profile.quote}"
+                      // a.profile(href='/profile/#{j + i}') Know More
+                    p
+
