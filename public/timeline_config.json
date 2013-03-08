@@ -46,7 +46,7 @@
             {
                 "startDate":"1964",
                 "headline":"Patsy Mink",
-                "text":"<p>Elected as first congresswoman of color, First AAPI to run for President of U.S. </p><a class='profile' href='/profile/3'>Know More</a>",
+                "text":"<p>Elected as first congresswoman of color, First Asian American to run for President of the United States </p><a class='profile' href='/profile/3'>Know More</a>",
                 "asset":
                 {
                     "media":"/images/photos/patsy_mink%20profile_cropped.jpeg",
@@ -145,8 +145,8 @@
                 "text":"<p>First African American woman to represent California's 13th District in East Bay Area</p><a class='profile' href='/profile/11'>Know More</a>",
                 "asset":
                 {
-                    "media":"/images/photos/barbara-lee-black-caucus-chair-111908-by-alex-wong-getty-images.jpeg",
-					"thumbnail":"/images/photos/barbara-lee-black-caucus-chair-111908-by-alex-wong-getty-images.jpeg",
+                    "media":"/images/photos/220px-Barbaralee_newheadshot_1200.jpeg",
+					"thumbnail":"/images/photos/220px-Barbaralee_newheadshot_1200.jpeg",
                     "credit":"",
                     "caption":""
                 }
@@ -180,8 +180,8 @@
                 "text":"<p>Testified before Congress on the DREAM Act </p><a class='profile' href='/profile/14'>Know More</a>",
                 "asset":
                 {
-                    "media":"/images/photos/tt2.jpg",
-					"thumbnail":"/images/photos/tt2.jpg",
+                    "media":"/images/photos/TamMemorialFund.jpeg",
+					"thumbnail":"/images/photos/TamMemorialFund.jpeg",
                     "credit":"",
                     "caption":""
                 }
